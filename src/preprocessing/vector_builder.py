@@ -3,17 +3,24 @@ from duration_parser import get_duration_days
 def vector_builder(symptom_prescence:dict,text:str)->dict:
     vector={}
     vector["_duration_days"]={}
+    vector["_confidence"]={}
+    base_conf=0.7
     #loops over symptoms found in text
     for symptom in symptom_prescence:
         if symptom_prescence[symptom]==True:
             #if symptom is found we compute severity+duration
             severity=get_severity( symptom,text)#calls the get severity function
-            duration=get_duration_days(symptom,text)
-            vector[symptom]=severity#store numeric severity score for symptom
-            vector["_duration_days"][symptom]=duration#store number of days for a certain symptom
+            confidence=base_conf+0.2
         else:
             severity=0.0
-            vector[symptom]=severity
+            confidence=base_conf
+        duration=get_duration_days(symptom,text)
+        if duration!=3:
+            confidence+=0.1
+        confidence=max(0,min(1,confidence))
+        vector[symptom]=severity#store numeric severity score for symptom
+        vector["_duration_days"][symptom]=duration#store number of days for a certain symptom
+        vector["_confidence"][symptom]=confidence
     return vector                
     
           

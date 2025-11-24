@@ -1,7 +1,16 @@
 import re
+from severity_parser import find_symptom_index
 def get_duration_days(symptom:str,text:str)->int:
-    data=re.search('(\d+)\s+(day|day|week|weeks|month|months|year|years)',text)
-    #if data is empty assume 3 days
+   # we first split the entire incoming text into words
+    words=text.lower().split()
+    #find the index of the symptoms in the text
+    idx=find_symptom_index(symptom,text)
+    if idx is None:
+        return 3#if not found return 3
+    search_words=words[idx:idx+8]#checking to see basically if there is any multiplier within a set span of the symptom
+    joined=" ".join(search_words)
+    data=re.search(r"(\d+)\s+(day|days|week|weeks|month|months|year|years)",joined)#regex to parse input
+     #if data is empty assume 3 days
     if data is None:
         return 3
     #the next part is the multiplier dictionary, the current version is rudimentary but i would add more stuff into it later on 
@@ -16,11 +25,11 @@ def get_duration_days(symptom:str,text:str)->int:
         "day":1
     
     }
-    #return whatever the duration in terms of days
-    amt=int(data.group(1))
-    unit=data.group(2)
-    days=amt*multiplier_dict[unit]
-    return days
+    
+    number=int(data.group(1))
+    amt=data.group(2)
+    return number*multiplier_dict[amt]
+    
 
    
     
