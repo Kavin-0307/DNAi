@@ -35,9 +35,9 @@
         "fasciculations":["muscle twitching","tongue quivering","involuntary muscle flickering"],
         "dysphagia":["swallowing difficulty","choking while eating","aspiration risk","poor suck"],
         "paradoxical_breathing":["belly breathing","seesaw breathing","abdominal breathing"],
-        "head_lag":["poor head control","inability to hold head up","neck weakness"],
+        "hFpread_lag":["poor head control","inability to hold head up","neck weakness"],
         "weak_cry":["feeble cry","quiet cry"],
-        "arachnodactyl":["spider fingers","long slender fingers"],
+        "arachnodactyly":["spider fingers","long slender fingers"],
         "dolichostenomelia":["long limbs relative to trunk","high arm span-to-height ratio"],
         "pectus_excavatum":["sunken chest","funnel chest","concave sternum"],
         "pectus_carinatum":["pigeon chest","protruding chest","keel chest"],
@@ -92,7 +92,7 @@
         "microcephaly": ["small head size"],
         "behavioral_problems": ["irritability", "hyperactivity"],
         "fair_skin": ["light skin pigmentation"],
-       
+         "progressive_weakness":["worsening weakness","increasing weakness","decling strength"],
         "feeding_difficulty": ["poor feeding", "difficulty feeding"],
         "developmental_delay": ["late milestones", "slower development"]
 
