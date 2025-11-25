@@ -10,14 +10,14 @@ def vector_builder(symptom_prescence:dict,text:str)->dict:
         if symptom_prescence[symptom]==True:
             #if symptom is found we compute severity+duration
             severity=get_severity( symptom,text)#calls the get severity function
-            confidence=base_conf+0.2
+            confidence=base_conf+0.2#small boost for postive match
         else:
             severity=0.0
             confidence=base_conf
         duration=get_duration_days(symptom,text)
         if duration!=3:
             confidence+=0.1
-        confidence=max(0,min(1,confidence))
+        confidence=max(0,min(1,confidence))#clamp values
         vector[symptom]=severity#store numeric severity score for symptom
         vector["_duration_days"][symptom]=duration#store number of days for a certain symptom
         vector["_confidence"][symptom]=confidence
