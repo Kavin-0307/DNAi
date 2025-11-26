@@ -1,0 +1,12 @@
+{
+  "chronic": {
+    "chronic": "+0.08",
+    "subacute": "-0.05",
+    "acute": "*0.5"
+  },
+  "chronic_recurrent": {
+    "chronic": "+0.05",
+    "subacute": "+0.05",
+    "acute": "-0.05"
+  }
+}
