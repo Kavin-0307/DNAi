@@ -1,0 +1,6 @@
+{
+    "duchenne_muscular_dystrophy":["muscle_atrophy","pseudohypertrophy"],
+    "spinal_muscular_atrophy":["hypotonia"],
+    "cystic_fibrosis":["chronic_cough","frequent_infections"],
+    "tay_sachs_disease":["neuroregression"]
+}

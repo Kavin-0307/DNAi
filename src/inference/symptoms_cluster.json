@@ -1,0 +1,81 @@
+{
+  "respiratory_chronic_cluster": {
+    "symptoms": [
+      "chronic_cough",
+      "wheezing",
+      "frequent_infections",
+      "sinusitis",
+      "nasal_polyps",
+      "dyspnea"
+    ],
+    "trigger_threshold": 3,
+    "boost_strength": "medium"
+  },
+
+  "hematologic_crisis_cluster": {
+    "symptoms": [
+      "vaso_occlusive_crisis",
+      "bone_pain",
+      "acute_chest_syndrome",
+      "dactylitis",
+      "splenomegaly",
+      "jaundice",
+      "fatigue"
+    ],
+    "trigger_threshold": 2,
+    "boost_strength": "high"
+  },
+
+  "neuromuscular_degeneration_cluster": {
+    "symptoms": [
+      "muscle_atrophy",
+      "hypotonia",
+      "pseudohypertrophy",
+      "respiratory_inefficiency",
+      "waddling_gait",
+      "head_lag",
+      "scoliosis"
+    ],
+    "trigger_threshold": 2,
+    "boost_strength": "high"
+  },
+
+  "neuroregression_cluster": {
+    "symptoms": [
+      "neuroregression",
+      "dystonia",
+      "seizures",
+      "exaggerated_startle_reflex",
+      "ataxia",
+      "developmental_delay",
+      "saccadic_dysfunction"
+    ],
+    "trigger_threshold": 2,
+    "boost_strength": "high"
+  },
+
+  "connective_tissue_cluster": {
+    "symptoms": [
+      "ectopia_lentis",
+      "arachnodactyly",
+      "pectus_carinatum",
+      "pectus_excavatum",
+      "scoliosis",
+      "aortic_root_dilation",
+      "pes_planus"
+    ],
+    "trigger_threshold": 2,
+    "boost_strength": "medium"
+  },
+
+  "malabsorption_cluster": {
+    "symptoms": [
+      "steatorrhea",
+      "failure_to_thrive",
+      "abdominal_distension",
+      "rectal_prolapse"
+    ],
+    "trigger_threshold": 2,
+    "boost_strength": "medium"
+  }
+}

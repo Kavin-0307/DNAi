@@ -1,0 +1,10 @@
+{
+  "duchenne_muscular_dystrophy": "chronic",
+  "spinal_muscular_atrophy": "chronic",
+  "cystic_fibrosis": "chronic_recurrent",
+  "tay_sachs_disease": "chronic",
+  "wilsons_disease": "chronic",
+  "huntingtons_disease": "chronic",
+  "sickle_cell_disease": "episodic",
+  "marfans_syndrome": "chronic"
+}
