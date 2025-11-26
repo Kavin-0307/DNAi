@@ -1,6 +1,7 @@
-from severity_parser import get_severity
-from duration_parser import get_duration_days
-def vector_builder(symptom_prescence:dict,text:str)->dict:
+from src.preprocessing.duration_parser import get_duration_days
+from src.preprocessing.severity_parser import get_severity
+
+def get_vector(symptom_prescence:dict,text:str)->dict:
     vector={}
     vector["_duration_days"]={}
     vector["_confidence"]={}

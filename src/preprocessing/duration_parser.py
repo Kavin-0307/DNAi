@@ -1,5 +1,5 @@
 import re
-from severity_parser import find_symptom_index
+from src.preprocessing.severity_parser import find_symptom_index
 def get_duration_days(symptom:str,text:str)->int:
    # we first split the entire incoming text into words
     words=text.lower().split()
