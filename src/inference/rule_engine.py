@@ -81,10 +81,41 @@ def apply_required_symptoms_rule(score,disease,patient_vector):
     return score
 def apply_cluster_rule(score,disease,patient_vector):
     json_path=Path(__file__).parent/"symptoms_cluster.json"
+    count=0
+    boost_map={
+        "low":0.03,
+        "medium":0.06,
+        "high":0.1
+    }
     symptoms_cluster_map=json.loads(json_path.read_text())#importing the json
-    
+    for cluster_name,cluster_info in symptoms_cluster_map.items():
+        symptoms=cluster_info["symptoms"]
+        threshold=cluster_info["trigger_threshold"]
+        boost_strength=cluster_info["boost_strength"]
+        match_count=sum(
+            1 for symptom in symptoms
+            if symptom in patient_vector and patient_vector[symptom]>0
+        )
+        if match_count>=threshold:
+            score=score+boost_map.get(boost_strength,0.05)
     return score
 def apply_confidence_rule(score,disease,patient_vector):
-    json_path=Path(__file__).parent/"duration_expectations.json"
-    confidence_map=json.loads(json_path.read_text())#importing the json
+
+    confidence_dict=patient_vector.get("_confidence",{})
+    if not confidence_dict:
+        return score
+    avg_sum=0
+    count=0
+    for confidence in confidence_dict.values():
+        avg_sum+=confidence
+        count+=1
+    confidence_final=avg_sum/count
+    if confidence_final>=0.85:
+        score=score+0.04
+    elif 0.85>confidence_final >=0.70:
+        score=score+0.0
+    elif 0.5<=confidence_final<0.70:
+        score-=0.03
+    else:
+        score=score*0.8
     return score
