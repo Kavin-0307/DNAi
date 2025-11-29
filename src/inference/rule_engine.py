@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-
+#it basically applies our rules to show the updated score we think of per disease
 def apply_rules(similarity_scores:dict,patient_vector:dict)->dict:
     updated_scores={}
     for disease,score in similarity_scores.items():
@@ -12,25 +12,31 @@ def apply_rules(similarity_scores:dict,patient_vector:dict)->dict:
         modified=apply_confidence_rule(modified,disease,patient_vector)
         updated_scores[disease]=modified
     return updated_scores
+#it checks if like a key symptom is available and boosts are added accordingly
 def apply_pathognomic_rule(score,disease,patient_vector):
         json_path=Path(__file__).parent/"pathognomonic_map.json"
         pathognomic_map=json.loads(json_path.read_text())#importing the json
         for symptom in patient_vector:
+            if symptom.startswith("_"):
+                continue
             if symptom in pathognomic_map:
               if  disease==pathognomic_map[symptom]:
                  score+=0.25
                  break
         return score
-
+#it basically applies boosts accordingly to the duration alignment
 def apply_duration_alignment_rule(score,disease,patient_vector):
     json_path=Path(__file__).parent/"durations_expectations.json"
     duration_map=json.loads(json_path.read_text())#importing the json
-    json_path2=Path(__file__).parent/"durations_rules.json"
+    json_path2=Path(__file__).parent/"duration_rules.json"
     duration_rules=json.loads(json_path2.read_text())
     if disease not in duration_map:
         return score
     expected=duration_map[disease]
-    durations=max(patient_vector["_duration_days"].values())
+    durations=patient_vector.get("_duration_days",{})
+    if not durations:
+        return score
+    durations=max(durations.values())
     if durations>0 and durations<=7:
         severity="acute"
     elif durations>7 and durations<=60:
@@ -47,6 +53,7 @@ def apply_duration_alignment_rule(score,disease,patient_vector):
     return score
 
 
+#it applies the rules basically for a disease to pass we need to calculate if it passes a minimum amount of disease
 
 def apply_required_symptoms_rule(score,disease,patient_vector):
     json_path=Path(__file__).parent/"required_symptoms.json"
@@ -79,6 +86,7 @@ def apply_required_symptoms_rule(score,disease,patient_vector):
             score+=0.05
         
     return score
+#cluster is basically grouping of diseases
 def apply_cluster_rule(score,disease,patient_vector):
     json_path=Path(__file__).parent/"symptoms_cluster.json"
     count=0

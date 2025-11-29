@@ -1,4 +1,11 @@
 import numpy as np
+def find_symptom_index(symptom:str,text:str):
+    text=text.lower()
+    words=text.split()
+    for i,word in enumerate(words):
+        if symptom==word.strip(".,!?"):
+            return i
+    return None
 def get_severity(symptom:str,text:str,slider_score:float|None=None)->float:
     defaultSeverity=0.5
     #it first takes into account the slider score with maximum weight
@@ -56,11 +63,3 @@ def get_severity(symptom:str,text:str,slider_score:float|None=None)->float:
         severity=0
  
     return severity
-def find_symptom_index(symptom:str,text:str):
-    text=text.lower()
-    words=text.split()
-    for i,word in enumerate(words):
-        if symptom==word.strip(".,!?"):
-            return i
-    return None
-    

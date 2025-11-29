@@ -16,7 +16,7 @@ def get_vector(symptom_prescence:dict,text:str)->dict:
             severity=0.0
             confidence=base_conf
         duration=get_duration_days(symptom,text)
-        if duration!=3:
+        if duration and duration>0:
             confidence+=0.1
         confidence=max(0,min(1,confidence))#clamp values
         vector[symptom]=severity#store numeric severity score for symptom

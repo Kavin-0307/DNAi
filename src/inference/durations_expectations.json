@@ -5,6 +5,6 @@
   "tay_sachs_disease": "chronic",
   "wilsons_disease": "chronic",
   "huntingtons_disease": "chronic",
-  "sickle_cell_disease": "episodic",
+  "sickle_cell_disease": "chronic_recurrent",
   "marfans_syndrome": "chronic"
 }

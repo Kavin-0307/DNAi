@@ -6,13 +6,13 @@ def get_duration_days(symptom:str,text:str)->int:
     #find the index of the symptoms in the text
     idx=find_symptom_index(symptom,text)
     if idx is None:
-        return 3#if not found return 3
+        return None#if not found return Null value
     search_words=words[idx:idx+8]#checking to see basically if there is any multiplier within a set span of the symptom
     joined=" ".join(search_words)
     data=re.search(r"(\d+)\s+(day|days|week|weeks|month|months|year|years)",joined)#regex to parse input
-     #if data is empty assume 3 days
+     #if data is empty null return
     if data is None:
-        return 3
+        return None
     #the next part is the multiplier dictionary, the current version is rudimentary but i would add more stuff into it later on 
     multiplier_dict={
         "weeks":7,
