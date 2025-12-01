@@ -55,3 +55,8 @@ class CueNormalizer:
                 if s in phrase:
                     return canonical
         return None
+# Public wrapper for pipeline
+_normalizer = CueNormalizer()
+
+def normalize_cues(text: str)->List[str]:
+    return _normalizer.normalize(text)

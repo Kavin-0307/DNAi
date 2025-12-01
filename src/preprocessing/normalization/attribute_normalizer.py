@@ -86,7 +86,7 @@ class AttributeNormalizer:
         return None
 
     # Main function
-    def normalize_attributes(self, symptom_text: str):
+    def get_attributes(self, symptom_text: str):
         """Returns all normalized attributes for a symptom"""
         return {
             "severity": self.normalize_severity(symptom_text),
@@ -95,3 +95,13 @@ class AttributeNormalizer:
             "temporal_cue": self.normalize_temporal(symptom_text),
             "progression": self.normalize_progression(symptom_text)
         }
+# ---- Public helper function for pipeline ----
+
+_normalizer = AttributeNormalizer()
+
+def normalize_attributes_text(text: str):
+    """Wrapper to call normalization without instantiating class in multiple modules."""
+    return _normalizer.get_attributes(text)
+def apply_attribute_normalization(text:str):
+    return text,_normalizer.get_attributes(text)
+

@@ -31,9 +31,10 @@ def get_severity(symptom:str,text:str,slider_score:float|None=None)->float:
         "very severe":1.0 
     }
     severity=None
+    window_text=" ".join(window_words)
     #we check if any severity scores are a part of the text and set it on the first go
     for word in SEVERITY_SCORES:
-        if word in window_words:
+        if word in window_text:
             severity=SEVERITY_SCORES[word]
             break
     #we add boost words and negations if we have a severity    

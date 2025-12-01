@@ -1,9 +1,9 @@
-from src.preprocessing.vector_builder import get_vector
+from src.preprocessing.vectorization.vector_builder import get_vector
 import json
 import math
 import numpy as np
 from numpy.linalg import norm
-from src.preprocessing.severity_parser import get_severity
+from src.preprocessing.parsing.severity_parser import get_severity
 
 
 from pathlib import Path

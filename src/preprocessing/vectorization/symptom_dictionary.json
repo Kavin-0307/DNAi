@@ -1,5 +1,5 @@
 {
-        "fever":["pyrexia","high temperature"],
+        "fever":["pyrexia","high temperature","fever","temperature"],
         "dyspnea":["shortness of breath","breathlessness","windedness","labored breathing"],
         "wheezing":["whistling breath","bronchospasm","airway constriction"],
         "sinusitis":["sinus congestion"],
@@ -35,7 +35,7 @@
         "fasciculations":["muscle twitching","tongue quivering","involuntary muscle flickering"],
         "dysphagia":["swallowing difficulty","choking while eating","aspiration risk","poor suck"],
         "paradoxical_breathing":["belly breathing","seesaw breathing","abdominal breathing"],
-        "hFpread_lag":["poor head control","inability to hold head up","neck weakness"],
+        "head_lag":["poor head control","inability to hold head up","neck weakness"],
         "weak_cry":["feeble cry","quiet cry"],
         "arachnodactyly":["spider fingers","long slender fingers"],
         "dolichostenomelia":["long limbs relative to trunk","high arm span-to-height ratio"],
@@ -94,8 +94,8 @@
         "fair_skin": ["light skin pigmentation"],
          "progressive_weakness":["worsening weakness","increasing weakness","decling strength"],
         "feeding_difficulty": ["poor feeding", "difficulty feeding"],
-        "developmental_delay": ["late milestones", "slower development"]
-
+        "developmental_delay": ["late milestones", "slower development"],
+        "chest_pain":["chest pain","tight chest","pressure chest"]
 
 
 }

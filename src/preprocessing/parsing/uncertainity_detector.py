@@ -15,7 +15,7 @@ class UncertaintyDetector:
             r"\brule out\b",
             r"\br/o\b",
             r"\bquestion of\b",
-            r"\b?\b"   # doctors often write "?tb"
+            r"^\?$"   # doctors often write "?tb"
         ]
 
         self.window_size = 5

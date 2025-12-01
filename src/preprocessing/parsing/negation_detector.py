@@ -23,9 +23,11 @@ class NegationDetector:
         Returns dict indicating whether each symptom is negated.
         Example: { "fever": True, "cough": False }
         """
-        text_lower = text.lower()
+        
 
+        text_lower = re.sub(r"[^\w\s]", "", text.lower())
         tokens = text_lower.split()
+
         negations = self._find_negation_positions(tokens)
 
         symptom_negation = {}
@@ -62,13 +64,3 @@ class NegationDetector:
                         return True
         return False
 
-# Simple usage example
-if __name__ == "__main__":
-    detector = NegationDetector()
-    text = "Patient has cough but no fever and denies chest pain."
-    symptoms = ["cough", "fever", "chest pain"]
-
-    result = detector.detect(text, symptoms)
-    print(result)
-    # Expected:
-    # { 'cough': False, 'fever': True, 'chest pain': True }
