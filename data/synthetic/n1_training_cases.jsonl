@@ -1,0 +1,273 @@
+[
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "A 5-year-old boy has had difficulty climbing stairs and getting up from the floor over the past 2 years. His parents noticed he uses his hands to push off his thighs to stand and has a waddling gait. His calves look enlarged. No fever, no recent infections."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+"text": "A 7-year-old boy presents with progressive muscle weakness, trouble running, and frequent falls since early childhood. Parents report toe walking and difficulty lifting his head when lying down. Calf muscles are bulky. Symptoms have slowly worsened over several years."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "A 6-year-old boy is brought in for trouble standing from a seated position and using furniture to pull himself up. His teachers report he cannot keep up in physical activities. His gait is waddling and he has difficulty climbing stairs. There is no history of acute illness or trauma."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "Parents of an 8-year-old boy report that he was late to walk and now has progressive difficulty walking distances. They notice he pushes on his thighs to stand and often walks on his toes. Over the past year he complains of leg fatigue but denies pain or breathing difficulty."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "A 9-year-old boy has a 3-year history of progressive proximal muscle weakness. He struggles to rise from the floor, shows Gowers-like maneuver, and has a broad-based waddling gait. He has mild scoliosis developing. No episodes of acute paralysis or sensory loss."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "A school-age boy is evaluated for difficulty keeping up with peers in sports and frequent falls over the last 2-3 years. His parents mention enlarged calves and that he cannot climb stairs without using the railing. No fever, no recent respiratory infections."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "A 4-year-old boy presents with delayed motor milestones, late walking, and difficulty running. Over the last year, parents have noticed he has trouble getting off the floor and walks with a side-to-side, waddling pattern. There is no history of acute illness, seizures, or trauma."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "An 11-year-old boy with long-standing proximal muscle weakness now uses a support to stand and has increasing difficulty climbing stairs. His gait is waddling, and there is calf hypertrophy. Weakness has been gradually progressive over many years without remission."
+  }
+]
+[
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "A 10-month-old infant has poor head control, weak cry, and difficulty lifting his limbs against gravity. Parents report he never learned to sit unsupported and seems floppy since early infancy. There is no history of fever, seizures, or acute illness."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "A 2-year-old child presents with progressive weakness in the legs and difficulty standing without support. Parents describe a history of delayed motor milestones and frequent sitting rather than standing. No sensory complaints, no episodes of acute paralysis."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "A 6-month-old boy is brought for evaluation of generalized hypotonia and failure to roll over. He has a weak cry, poor head control, and minimal spontaneous limb movements. Feeding is slow, but there is no fever or respiratory infection at present."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "A toddler has a 1-year history of worsening leg weakness and increasing difficulty walking. Parents report that she crawled late and never ran normally. She struggles to stand from the floor and often prefers sitting. No bowel or bladder issues, no sensory loss."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "A 3-year-old child has a long-standing history of floppy muscles and poor trunk control. She is unable to climb stairs and tires easily. Reflexes are diminished on exam. There is no history of acute onset, trauma, or fever preceding symptoms."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "A 9-month-old infant presents with feeding difficulty, weak suck, and minimal limb movement noted over several months. Parents say he never rolled or sat independently. He appears hypotonic and has a frog-leg posture. There is no recent infection reported."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "A 4-year-old girl is seen for chronic proximal limb weakness, frequent falls, and fatigue with walking. Symptoms have been present for years and slowly progressive. There are no sensory complaints, no episodes of acute illness associated with weakness."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "An infant is described as 'floppy' since birth, with a weak cry and poor antigravity movements. At 7 months, she is unable to sit unsupported and struggles to lift her head when lying prone. There is no fever, seizures, or signs of acute infection."
+  }
+]
+[
+  {
+    "disease": "cystic_fibrosis",
+    "text": "A 9-year-old child has recurrent cough with thick sputum, wheezing, and shortness of breath for several years. Parents report frequent chest infections requiring antibiotics and poor weight gain despite good appetite. Stools are bulky and greasy. No known heart disease."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "An 11-year-old boy presents with chronic productive cough, repeated episodes of sinusitis, and nasal polyps. He has had multiple hospitalizations for pneumonia and has not been gaining weight appropriately. His stools are foul-smelling and difficult to flush."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "A 7-year-old girl has a long-standing history of wheezing, frequent respiratory infections, and poor growth. She has daily cough with thick mucus and occasional shortness of breath on exertion. Parents also notice frequent loose, oily stools."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "A teenager presents with chronic cough, digital clubbing, and shortness of breath. He has recurrent bronchitis and sinus infections for many years. He reports abdominal bloating and greasy stools. There is no history of smoking or cardiac disease."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "A 5-year-old child presents with failure to thrive, chronic diarrhea with fatty stools, and persistent cough. Parents say she has frequent chest colds and wheezing, especially during winter. No recent high fever, but symptoms have been present for years."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "An 8-year-old boy has chronic cough, recurrent lung infections, and episodes of wheezing since early childhood. He has nasal congestion with sinusitis and poor weight gain despite high calorie intake. Stools are pale, bulky, and malodorous."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "A 10-year-old girl with long-standing respiratory symptoms presents with shortness of breath during play and frequent coughing fits with thick sputum. She has had multiple antibiotic courses for pneumonia. She also has abdominal discomfort and oily, floating stools."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "A 6-year-old patient is evaluated for chronic cough, wheezing, and poor growth. There is a history of repeated hospital admissions for chest infections and prolonged recovery. Parents report large, greasy stools and abdominal distension."
+  }
+]
+[
+  {
+    "disease": "tay_sachs_disease",
+    "text": "A 9-month-old infant who previously met early milestones now shows loss of motor skills and decreased responsiveness. Parents report that he no longer rolls over or sits, startles easily to sounds, and has progressive weakness. No fever or acute infection is reported."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "A 1-year-old child presents with regression of development over several months. She had normal early milestones but has stopped crawling and now struggles to sit unsupported. Parents notice poor visual tracking and increased startle responses. No recent illness."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "An 8-month-old infant is brought for lethargy, progressive loss of motor skills, and reduced eye contact. She had been rolling and reaching but has lost these abilities. Parents report she startles dramatically to sudden sounds. No seizures have been observed yet."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "A 14-month-old child shows progressive neuroregression: he no longer stands with support and has lost previously acquired words. Parents report increasing hypotonia and reduced interest in surroundings over the past months. No history of trauma or acute illness."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "An infant around 10 months is evaluated for worsening weakness, decreased attentiveness, and regression of previously normal milestones. Parents mention exaggerated startle responses and poor head control. There are no signs of acute infection."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "A toddler with previously normal development now shows significant motor and cognitive decline over the last year. She no longer walks or crawls and has difficulty swallowing. Family has noticed frequent startle-like jerks to noise. No recent fever or injury."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "A 1-year-old presents with progressive weakness, poor visual tracking, and decreased interaction with parents over several months. She has lost the ability to sit unassisted. Parents deny any acute illness, seizures, or head trauma preceding decline."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "An 11-month-old infant who was previously developing normally now exhibits neuroregression with loss of motor milestones, increased hypotonia, and reduced responsiveness to visual stimuli. There is a history of exaggerated startle responses. No fever or acute episodes."
+  }
+]
+[
+  {
+    "disease": "wilsons_disease",
+    "text": "A 16-year-old boy presents with several months of clumsiness, difficulty with handwriting, and mood changes. Family reports irritability and declining school performance. He has mild jaundice and occasionally complains of abdominal discomfort. No recent high fever."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "A young adult presents with tremors, difficulty speaking clearly, and unsteady gait that has developed gradually over a year. She also notes fatigue and yellowing of the eyes. There is no history of alcohol use or viral hepatitis."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "A teenager has a 1-year history of behavioral changes, depression, and decreasing academic performance. Parents also report episodes of slurred speech and poor coordination. He has intermittent jaundice and mild abdominal pain, but no acute infection."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "A 20-year-old man presents with progressive difficulty with fine motor tasks and a wing-beating tremor. He has had fatigue, jaundice, and mild abdominal swelling over several months. No recent fever or acute illness."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "A teenage girl reports several months of shaky hands, difficulty controlling movements, and new-onset personality changes. Family mentions long-standing mild jaundice. There is no history of drug use, alcohol, or major head trauma."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "An 18-year-old male presents with slowly progressive dysarthria and clumsy gait. He has had intermittent abdominal discomfort and yellowing of the eyes. Symptoms have been present for about a year, with no acute infectious illness reported."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "A young adult complains of tremor, difficulty writing, and episodes of mood swings over several months. There is a background of chronic mild liver dysfunction with jaundice. He denies fever, recent travel, or acute intoxication."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "A 15-year-old boy is evaluated for progressive coordination issues, slurred speech, and behavioral problems. Parents note he has had yellowing of the eyes on and off. Symptoms have slowly worsened over many months without any acute trigger."
+  }
+]
+[
+  {
+    "disease": "huntingtons_disease",
+    "text": "A 35-year-old man presents with involuntary jerky movements of the arms and face for the past year, along with personality changes and irritability. His family reports memory issues and difficulty concentrating. Symptoms have been gradually progressive."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "A woman in her early 40s develops progressive choreiform movements and unsteady gait over several years. She has become more forgetful, depressed, and has trouble with planning tasks. There is no history of stroke or acute neurologic illness."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "A 38-year-old patient presents with mood changes, increased impulsivity, and random fidgety movements that she cannot control. Symptoms started insidiously a few years ago and have slowly worsened. No episodes of sudden paralysis or seizures."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "A middle-aged man has a 3-year history of progressive involuntary movements, clumsiness, and difficulty with balance. His spouse notes he has become forgetful and has frequent mood swings. Symptoms have no clear acute trigger."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "A 45-year-old woman reports gradually worsening jerky, dance-like movements and trouble performing coordinated tasks. Family says she has become withdrawn and depressed. There is no history of head trauma or acute neurologic events."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "A 33-year-old man presents with subtle chorea and changes in personality over the past 2 years. He is more irritable, has difficulty at work, and occasionally drops objects due to involuntary movements. No acute onset or recent infection."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "A 41-year-old patient has progressive cognitive decline, difficulty with complex tasks, and uncontrolled fidgety movements. Family reports mood instability and irritability. Symptoms have been slowly evolving for several years."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "A 37-year-old individual presents with unintentional jerking motions of the limbs, difficulty walking in a straight line, and personality changes. Symptoms have been chronic and progressive; there is no history of stroke or seizure onset."
+  }
+]
+[
+  {
+    "disease": "sickle_cell_disease",
+    "text": "A 12-year-old boy with known anemia presents with recurrent episodes of severe bone pain, especially in the legs and back, lasting several days. He has had multiple hospitalizations for pain crises and occasional jaundice. No recent infections are reported today."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "A teenager reports episodes of intense chest and limb pain triggered by cold weather and dehydration. Pain has recurred multiple times a year since childhood. He has a history of chronic anemia and intermittent yellowing of the eyes."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "An 8-year-old child has frequent painful swelling of the hands and feet, recurrent bone pain, and a history of severe anemia. Parents report multiple admissions for pain crises but no current fever. He has had leg ulcers in the past."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "A young patient presents with sudden severe chest pain and shortness of breath on a background of chronic anemia and previous pain crises. He has had repeated episodes of limb pain requiring opioids. No current respiratory infection is reported."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "A 15-year-old girl with long-standing hemolytic anemia complains of recurrent episodes of excruciating bone pain, especially in the legs and back, often requiring hospital care. She also has had leg ulcers and occasional jaundice."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "A child with a known history of sickling crises presents with generalized bone pain, fatigue, and shortness of breath during exertion. He has had multiple episodes of painful crises since early childhood. No acute infection today."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "An adolescent has recurrent severe chest and back pain episodes associated with breathing difficulty, on top of chronic anemia and jaundice. Pain crises have been happening several times per year since childhood."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "A 10-year-old with chronic anemia is evaluated for repeated painful episodes in the limbs and abdomen, sometimes accompanied by low-grade fever. Symptoms recur over many years. He has also had delayed growth and occasional leg ulcers."
+  }
+]
+[
+  {
+    "disease": "marfans_syndrome",
+    "text": "A tall, thin 18-year-old male presents for evaluation of long limbs, chest deformity, and scoliosis. He has a high-arched palate, crowding of teeth, and myopia. No acute chest pain today, but he has been told his aorta is dilated on prior imaging."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "A 20-year-old woman with tall stature and disproportionately long arms and fingers reports back pain from scoliosis and palpitations. She has pectus excavatum and a history of lens dislocation. No acute shortness of breath or trauma is reported."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "A young adult with very tall, thin build and long limbs presents with worsening back discomfort and known scoliosis. He has a high-arched palate and crowded teeth. Prior echocardiogram showed mild aortic root dilation. No sudden chest pain currently."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "A 16-year-old boy is referred for evaluation of chest deformity and hyperflexible joints. He is tall with long fingers and has been diagnosed with myopia. There is a family history of early cardiac problems. No current acute respiratory symptoms."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "A tall young woman presents with progressive scoliosis and chest wall deformity. She reports intermittent palpitations but no syncope. She has long, slender fingers and flat feet. An eye specialist previously noted lens abnormalities."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "A 22-year-old man with a known history of aortic root dilation reports no acute chest pain today but is being followed by cardiology. He has tall, thin habitus, arachnodactyly, and pectus carinatum. He also has myopia and back pain from scoliosis."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "A 17-year-old presents for evaluation of tall stature, long arms, and chest wall deformity. She has flat feet, a high-arched palate, and mild scoliosis. There is no current shortness of breath or acute pain, but her father died suddenly of presumed cardiac cause."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "A tall adolescent boy with long slender fingers and hypermobile joints is evaluated for progressive back pain and poor posture. Examination shows pectus excavatum and mild scoliosis. He denies current chest pain or acute shortness of breath."
+  }
+]
+
