@@ -1,19 +1,11 @@
 import os
 import json
 
-# ------------------------------------------------------------
-# Resolve project root (folder containing `models` and `src`)
-# src/training/dataset_loader.py  →  src  →  project root
-# ------------------------------------------------------------
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-
-# ------------------------------------------------------------
-# Paths (FINAL WORKING VERSION)
-# ------------------------------------------------------------
 SCHEMA_FILE = os.path.join(PROJECT_ROOT, "data", "vector_schema.json")
 DISEASE_FILE = os.path.join(PROJECT_ROOT, "src", "inference", "diseases_profiles.json")
 
-# Normalize paths
+
 SCHEMA_FILE = os.path.normpath(SCHEMA_FILE)
 DISEASE_FILE = os.path.normpath(DISEASE_FILE)
 

@@ -30,9 +30,7 @@
   {
     "disease": "duchenne_muscular_dystrophy",
     "text": "An 11-year-old boy with long-standing proximal muscle weakness now uses a support to stand and has increasing difficulty climbing stairs. His gait is waddling, and there is calf hypertrophy. Weakness has been gradually progressive over many years without remission."
-  }
-]
-[
+  },
   {
     "disease": "spinal_muscular_atrophy",
     "text": "A 10-month-old infant has poor head control, weak cry, and difficulty lifting his limbs against gravity. Parents report he never learned to sit unsupported and seems floppy since early infancy. There is no history of fever, seizures, or acute illness."
@@ -64,9 +62,7 @@
   {
     "disease": "spinal_muscular_atrophy",
     "text": "An infant is described as 'floppy' since birth, with a weak cry and poor antigravity movements. At 7 months, she is unable to sit unsupported and struggles to lift her head when lying prone. There is no fever, seizures, or signs of acute infection."
-  }
-]
-[
+  },
   {
     "disease": "cystic_fibrosis",
     "text": "A 9-year-old child has recurrent cough with thick sputum, wheezing, and shortness of breath for several years. Parents report frequent chest infections requiring antibiotics and poor weight gain despite good appetite. Stools are bulky and greasy. No known heart disease."
@@ -98,9 +94,7 @@
   {
     "disease": "cystic_fibrosis",
     "text": "A 6-year-old patient is evaluated for chronic cough, wheezing, and poor growth. There is a history of repeated hospital admissions for chest infections and prolonged recovery. Parents report large, greasy stools and abdominal distension."
-  }
-]
-[
+  },
   {
     "disease": "tay_sachs_disease",
     "text": "A 9-month-old infant who previously met early milestones now shows loss of motor skills and decreased responsiveness. Parents report that he no longer rolls over or sits, startles easily to sounds, and has progressive weakness. No fever or acute infection is reported."
@@ -132,9 +126,7 @@
   {
     "disease": "tay_sachs_disease",
     "text": "An 11-month-old infant who was previously developing normally now exhibits neuroregression with loss of motor milestones, increased hypotonia, and reduced responsiveness to visual stimuli. There is a history of exaggerated startle responses. No fever or acute episodes."
-  }
-]
-[
+  },
   {
     "disease": "wilsons_disease",
     "text": "A 16-year-old boy presents with several months of clumsiness, difficulty with handwriting, and mood changes. Family reports irritability and declining school performance. He has mild jaundice and occasionally complains of abdominal discomfort. No recent high fever."
@@ -166,9 +158,7 @@
   {
     "disease": "wilsons_disease",
     "text": "A 15-year-old boy is evaluated for progressive coordination issues, slurred speech, and behavioral problems. Parents note he has had yellowing of the eyes on and off. Symptoms have slowly worsened over many months without any acute trigger."
-  }
-]
-[
+  },
   {
     "disease": "huntingtons_disease",
     "text": "A 35-year-old man presents with involuntary jerky movements of the arms and face for the past year, along with personality changes and irritability. His family reports memory issues and difficulty concentrating. Symptoms have been gradually progressive."
@@ -200,9 +190,7 @@
   {
     "disease": "huntingtons_disease",
     "text": "A 37-year-old individual presents with unintentional jerking motions of the limbs, difficulty walking in a straight line, and personality changes. Symptoms have been chronic and progressive; there is no history of stroke or seizure onset."
-  }
-]
-[
+  },
   {
     "disease": "sickle_cell_disease",
     "text": "A 12-year-old boy with known anemia presents with recurrent episodes of severe bone pain, especially in the legs and back, lasting several days. He has had multiple hospitalizations for pain crises and occasional jaundice. No recent infections are reported today."
@@ -234,9 +222,7 @@
   {
     "disease": "sickle_cell_disease",
     "text": "A 10-year-old with chronic anemia is evaluated for repeated painful episodes in the limbs and abdomen, sometimes accompanied by low-grade fever. Symptoms recur over many years. He has also had delayed growth and occasional leg ulcers."
-  }
-]
-[
+  },
   {
     "disease": "marfans_syndrome",
     "text": "A tall, thin 18-year-old male presents for evaluation of long limbs, chest deformity, and scoliosis. He has a high-arched palate, crowding of teeth, and myopia. No acute chest pain today, but he has been told his aorta is dilated on prior imaging."
