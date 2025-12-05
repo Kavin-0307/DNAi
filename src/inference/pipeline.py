@@ -15,6 +15,7 @@ from src.preprocessing.vectorization.vector_builder import get_vector
 import json
 import re
 import os
+from difflib import SequenceMatcher
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SYMPTOM_FILE = os.path.join(BASE_DIR, "..", "preprocessing", "vectorization", "symptom_dictionary.json")
 SYMPTOM_FILE = os.path.normpath(SYMPTOM_FILE)
@@ -26,12 +27,41 @@ def extract_symptoms(text:str)-> list:
     with open(SYMPTOM_FILE,'r') as f:
         dictionary=json.load(f)
     detected=[]
-    
+    text_lower=text.lower()
+    text_clean = re.sub(r'[^a-z0-9 ]', ' ', text.lower()).strip()
+    text_words = text_clean.split()
     for canonical,synonyms in dictionary.items():
-        for word in synonyms:
-            pattern=rf"\b{re.escape(word.lower())}\b"
-            if re.search(pattern,text.lower()):
-                detected.append(canonical)
+      for synonym in synonyms:
+        syn_clean=re.sub(r'[^a-z0-9 ]', ' ',synonym.lower()).strip()
+        syn_token=syn_clean.split()
+        if syn_clean and re.search(rf"\b{syn_clean}\b", text_clean):
+                if contextual_validation(canonical,text_clean):
+                        detected.append(canonical)
+                    
+                        break
+
+        if len(syn_token)>1:
+              for i in range(len(text_words) -  len(syn_token)+ 1):
+                chunk = " ".join(text_words[i:i+ len(syn_token)])
+                if similarity(syn_clean, chunk) >=0.65:
+                 if contextual_validation(canonical,text_clean):
+                        detected.append(canonical)
+                    
+                        break
+        else :
+            syn=syn_token[0]
+            for w in text_words:
+               
+                if len(w)>4 and similarity(w,syn) >=0.55:
+                    if contextual_validation(canonical,text_clean):
+                        detected.append(canonical)
+                    
+                        break
+
+          
+                
+
+
     return list(set(detected))
 def run_pipeline(text:str)->dict:
     symptoms=extract_symptoms(text)
@@ -67,3 +97,22 @@ def run_pipeline(text:str)->dict:
         "symptom_order": encoded["symptom_order"],
 
     }
+def similarity(a,b):
+    return SequenceMatcher(None,a.lower(),b.lower()).ratio()
+def contextual_validation(symptom, text):
+    context_keywords = {
+        "waddling_gait": ["walk", "gait", "movement"],
+        "gowers_sign": ["stand", "rise", "weakness"],
+        "nasal_polyps": ["nose", "sinus", "breathing"],
+        "vaso_occlusive_crisis": ["pain", "crisis", "swelling"],
+        "kayser_fleischer_rings": ["eye", "copper", "brown ring"],
+        "scoliosis": ["spine", "back", "curve"],
+        "toe_walking": ["walk", "gait", "balance"],
+        "pseudohypertrophy": ["calf", "muscle"]
+    }
+    if symptom not in context_keywords:
+        return True
+    for word in context_keywords.get(symptom, []):
+        if word in text:
+            return True
+    return False

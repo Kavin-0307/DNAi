@@ -4,9 +4,11 @@ from src.inference.pipeline import run_pipeline
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 CASES_FILE = PROJECT_ROOT / "data" / "synthetic" / "n1_training_cases.json"
 
-def dataset_builder():
-    
-    with open(CASES_FILE,'r') as f:
+def dataset_builder(file_path=None):
+    if file_path is None:
+        file_path = CASES_FILE   
+
+    with open(file_path,'r') as f:
         clinical_cases=json.load(f)
     
     X_dataset=[]

@@ -16,8 +16,8 @@
         "infertility":["azospermia"],
         "fatigue":["lethargy","chronic exhaustion"],
        
-        "pseudohypertrophy":["false enlargement","calf hypertrophy","fatty infiltration","muscular steatosis"],
-        "gowers_sign":["tripod sign"],
+        "pseudohypertrophy":["false enlargement","calf hypertrophy","fatty infiltration","muscular steatosis","enlarged calves","large calves"],
+        "gowers_sign":["tripod sign","pushes off thighs to stand","uses hands to climb body"],
         "waddling_gait":["duck gait","trendelenburg gait"],
         "toe_walking":["equinus gait","tip toe walking","achilles tendon contracture"],
         "scoliosis":["curvature of the spine","spinal deformity"],
@@ -47,7 +47,7 @@
         "pes_planus":["flat feet","fallen arches"],
         "high_arched_palate":["gothic palate","narrow maxillary dental arch"],
         "crowded_teeth":["dental crowding","malocclusion"],
-        "chorea":["appendicular hyperkinesia","axial hyperkinesia","jerky involuntary movements"],
+        "chorea":["appendicular hyperkinesia","axial hyperkinesia","jerky involuntary movements","dance-like movements"],
         "motor_impersistence":["impersistence of grip","tongue impersistence","inability to sustain voluntary contraction"],
         "bradykinesia":["psychomotor retardation","slowness of movement","generalized learning"],
         "dystonia":["sustained muscle contraction","abdominal posturing","repetitive twisting"],
@@ -55,7 +55,12 @@
         "anosognosia":["lack of insight","unawareness of illness","denial of symptoms"],
         "dysarthria":["slurred speech","hyperkinetic dysarthia","explosive speech"],
         "cachexia":["severe weight loss","muscle loss despite eating"],
-        "exaggerated_startle_reflex":["hyperacusis","abnormal jump response","hypersensitivity to noise"],
+       "exaggerated_startle_reflex": ["startle reaction", "hyper startle", "increased startle", "sudden noise reflex"],
+        "cherry_red_spot": ["cherry red macula", "macular cherry spot", "retinal cherry spot"],
+        "copper_accumulation": ["excess copper", "copper toxicity", "copper buildup", "liver copper"],
+        "tall_stature": ["unusually tall", "very tall build", "long limbs"],
+        "behavioral_problems": ["personality change", "irrational behavior", "aggression without cause"]
+,       
         "neuroregression":["loss of developmental milestones","skill deterioration","pediatric dementia"],
         "seizures":["uncontrolled convulsions","epileptic spasms","uncontrolled jerking"],
         "blindness":["vision impairment","loss of sight"],
@@ -70,7 +75,7 @@
         "dactylitis": ["swollen hands", "swollen feet"],
         "splenomegaly": ["enlarged spleen"],
         "autosplenectomy": ["nonfunctional spleen", "spleen shrinkage"],
-        "frequent_infections": ["recurrent infections", "poor immunity"],
+        "recurrent_infections": ["recurrent lung infections", "frequent infections", "keeps getting infections"],
         "acute_chest_syndrome": ["chest pain crisis", "acute lung injury", "sickle chest event"],
         "leg_ulcers": ["chronic leg wounds", "foot ulcers"],
         "stroke": ["ischemic stroke", "brain vessel blockage"],
@@ -92,10 +97,11 @@
         "microcephaly": ["small head size"],
         "behavioral_problems": ["irritability", "hyperactivity"],
         "fair_skin": ["light skin pigmentation"],
-         "progressive_weakness":["worsening weakness","increasing weakness","decling strength"],
+         "progressive_weakness":["worsening weakness","increasing weakness","decling strength","can't lift objects","struggles to rise"],
         "feeding_difficulty": ["poor feeding", "difficulty feeding"],
         "developmental_delay": ["late milestones", "slower development"],
-        "chest_pain":["chest pain","tight chest","pressure chest"]
-
-
+        "chest_pain":["chest pain","tight chest","pressure chest"],
+        "vision_loss":["poor visual tracking","loss of vision"],
+        "marfanoid_habitus": ["tall slender build", "slender tall frame", "long thin body"]
+        
 }

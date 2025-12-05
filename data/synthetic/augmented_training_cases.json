@@ -1,0 +1,434 @@
+[
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "A 5-year-old boy has had difficulty climbing stairs and getting up from the floor over the past 2 years. His parents noticed he uses his hands to push off his thighs to stand and has a waddling gait. His calves look enlarged. No fever, no recent infections."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "A 7-year-old boy presents with progressive muscle weakness, trouble running, and frequent falls since early childhood. Parents report toe walking and difficulty lifting his head when lying down. Calf muscles are bulky."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "A 6-year-old boy is brought in for trouble standing from a seated position and using furniture to pull himself up. His gait is waddling and he has difficulty climbing stairs."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "Parents of an 8-year-old boy report that he was late to walk and now has progressive difficulty walking distances. He pushes on thighs to stand and often walks on toes."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "A 9-year-old boy has progressive proximal muscle weakness, Gowers maneuver, and waddling gait."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "School-age boy with falls, enlarged calves, and difficulty climbing stairs without railing."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "A 4-year-old boy with delayed motor milestones, late walking, and waddling gait."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "An 11-year-old boy with long-standing proximal muscle weakness now needs support to stand and has calf hypertrophy."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "Child has progressive weakness, difficulty climbing stairs, and a waddling gait. Calf hypertrophy present."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "Toe walking, delayed milestones, and Gowers-like motion noted."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "Trouble running, frequent falls, and uses hands to push thighs when standing."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "Waddling gait, muscle weakness, and enlarged calves. No sensory loss."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "Difficulty climbing stairs and progressive proximal weakness."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "Trouble standing from sitting, broad gait, and toe walking."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "Delayed walking, weak legs, and calf enlargement with progressive weakness."
+  },
+  {
+    "disease": "duchenne_muscular_dystrophy",
+    "text": "Gait instability, difficulty rising to stand, and visible pseudohypertrophy."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "A 10-month-old infant has poor head control, weak cry, and difficulty lifting limbs against gravity."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "A 2-year-old child with progressive weakness and delayed motor milestones."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "A 6-month-old boy with hypotonia, weak cry, and minimal spontaneous limb movements."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "Toddler with worsening leg weakness, struggles to stand."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "A 3-year-old with poor trunk control, absent reflexes, and fatigue with walking."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "A 9-month-old with feeding difficulty, weak suck, and hypotonia."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "Child with chronic proximal weakness, frequent falls, and fatigue."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "Infant described as floppy with weak cry and poor antigravity movements."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "Floppy infant with hypotonia, weak cry, and poor head control."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "Generalized weakness, delayed milestones, and absent reflexes."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "Feeding difficulty, weak suck, hypotonia, and frog-leg posture."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "Progressive leg weakness and difficulty standing."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "Weak cry, poor trunk control, and minimal movements."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "Reflexes reduced, proximal weakness, delayed sitting."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "Struggles to walk and prefers sitting due to weakness."
+  },
+  {
+    "disease": "spinal_muscular_atrophy",
+    "text": "Severe hypotonia, slow motor development, and absent reflexes."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "A 9-year-old with recurrent cough with thick sputum, wheezing, and poor weight gain. Stools greasy."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "Chronic productive cough, repeated sinusitis, nasal polyps, and foul stools."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "Persistent wheezing, frequent respiratory infections, and oily stools."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "Chronic cough, digital clubbing, shortness of breath, and greasy stools."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "Failure to thrive, diarrhea with fatty stools, and persistent cough."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "Chronic cough, sinusitis, wheezing, and poor weight gain."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "Persistent shortness of breath, recurrent pneumonias, and steatorrhea."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "Chronic cough, wheezing, recurrent infections, and greasy stools."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "Chronic cough with thick sputum, wheezing, and greasy stools."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "Digital clubbing, recurrent lung infections, and steatorrhea."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "Failure to thrive, nasal polyps, and persistent productive cough."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "Shortness of breath, sinusitis, and oily stools."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "Wheezing, recurrent chest infections, and abdominal distension."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "Chronic productive cough and frequent respiratory infections."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "Bulky stools, failure to thrive, and recurrent wheezing."
+  },
+  {
+    "disease": "cystic_fibrosis",
+    "text": "Persistent mucus cough, poor growth, and steatorrhea."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "Infant with loss of motor skills, exaggerated startle reflex, and weakness."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "Loss of crawling ability, poor visual tracking, and increased startle response."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "Progressive neuroregression, hypotonia, and exaggerated noise reflex."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "Weakness, poor eye tracking, and regression of milestones."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "Motor decline, reduced responsiveness, and hypersensitivity to sound."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "Slow loss of milestones, hypotonia, and exaggerated startle."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "Developmental decline with poor visual tracking."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "Hypotonia, neuroregression, and dramatic startle response."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "Teen with tremor, jaundice, and emotional changes."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "Wing-beating tremor and mild liver dysfunction."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "Fatigue, slurred speech, and neurological decline."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "Unsteady gait, mood problems, and yellowing eyes."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "Coordination problems and intermittent jaundice."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "Neurological symptoms and hepatic insufficiency."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "Behavioral changes, tremor, and liver dysfunction."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "Motor decline and chronic jaundice."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "A 17-year-old has progressive tremor, difficulty speaking clearly, and mood swings. Examination shows wing beating tremor and yellow eyes suggesting jaundice. Symptoms have been present for months."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "Jerky movements, memory loss, and personality changes."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "Chorea and cognitive decline."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "Mood instability, chorea, and planning difficulty."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "Random fidgety movements and emotional changes."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "Progressive chorea and imbalance."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "Irritability, involuntary movements, and cognitive decline."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "Gradual worsening jerky movements and memory problems."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "Unsteady gait, chorea, and behavior change."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "Severe bone pain crisis and chronic anemia."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "Painful swelling of hands and feet with vaso-occlusive crisis."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "Recurrent limb pain and jaundice."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "Chest pain crisis and shortness of breath."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "Bone pain, fatigue, and vaso-occlusive episodes."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "Hemolytic anemia and recurring pain crisis."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "Vaso-occlusive pain and intermittent jaundice."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "Recurring painful swelling and chronic anemia."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "Tall slender build, scoliosis, and long fingers."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "Arachnodactyly, flat feet, and pectus excavatum."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "High arched palate, lens dislocation, and aortic root dilation."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "Chest wall deformity and hypermobile joints."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "Tall build with scoliosis and flat feet."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "Long limbs, pectus carinatum, and myopia."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "Arachnodactyly, crowded teeth, and tall build."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "Scoliosis, lens abnormalities, and aortic dilation."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "loss of crawling ability, poor visual tracking, , increased startle response. Diagnosis leaning toward tay_sachs_disease."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "Symptoms including Symptoms include weakness, poor eye tracking, and regression of milestones point toward tay_sachs_disease."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "This child shows Symptoms include infant with loss of motor skills, exaggerated startle reflex, and weakness, typically seen in tay_sachs_disease."
+  },
+  {
+    "disease": "tay_sachs_disease",
+    "text": "This child shows infant with loss of motor skills, exaggerated startle reflex, , weakness, typically seen in tay_sachs_disease."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "Reported case: fatigue, slurred speech, , neurological decline. diagnosis leaning toward wilsons_disease."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "wing-beating tremor and mild liver dysfunction. Diagnosis leaning toward wilsons_disease."
+  },
+  {
+    "disease": "wilsons_disease",
+    "text": "This patient shows Symptoms include wing-beating tremor and mild liver dysfunction, typically seen in wilsons_disease."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "progressive chorea and imbalance. Diagnosis leaning toward huntingtons_disease."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "Reported case: chorea and cognitive decline. diagnosis leaning toward huntingtons_disease."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "Presence of unsteady gait, chorea, and behavior change. Diagnosis leaning toward huntingtons_disease."
+  },
+  {
+    "disease": "huntingtons_disease",
+    "text": "Reported case: symptoms including presence of gradual worsening jerky movements and memory problems point toward huntingtons_disease."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "Child presents with Symptoms include severe bone pain crisis and chronic anemia, which is consistent with sickle_cell_disease."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "severe bone pain crisis , chronic anemia suggest sickle_cell_disease."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "Symptoms include chest pain crisis and shortness of breath suggest sickle_cell_disease."
+  },
+  {
+    "disease": "sickle_cell_disease",
+    "text": "Patient presents with painful swelling of h,s , feet with vaso-occlusive crisis, which is consistent with sickle_cell_disease."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "A case showing tall build with scoliosis , flat feet, likely marfans_syndrome."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "tall build with scoliosis and flat feet. Diagnosis leaning toward marfans_syndrome."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "This child shows long limbs, pectus carinatum, and myopia, typically seen in marfans_syndrome."
+  },
+  {
+    "disease": "marfans_syndrome",
+    "text": "Reported case: symptoms including long limbs, pectus carinatum, and myopia point toward marfans_syndrome."
+  }
+]
