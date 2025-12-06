@@ -1,10 +1,14 @@
 {
   "0": "cystic_fibrosis",
   "1": "duchenne_muscular_dystrophy",
-  "2": "huntingtons_disease",
-  "3": "marfans_syndrome",
-  "4": "sickle_cell_disease",
-  "5": "spinal_muscular_atrophy",
-  "6": "tay_sachs_disease",
-  "7": "wilsons_disease"
+  "2": "ehlers_danlos_syndrome",
+  "3": "hemophilia",
+  "4": "huntingtons_disease",
+  "5": "marfans_syndrome",
+  "6": "phenylketonuria",
+  "7": "sickle_cell_disease",
+  "8": "spinal_muscular_atrophy",
+  "9": "tay_sachs_disease",
+  "10": "thalassemia",
+  "11": "wilsons_disease"
 }

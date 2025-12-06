@@ -94,5 +94,57 @@
         "microcephaly":0.45,
         "dysphagia":0.42,
         "progressive_paralysis":0.4
-    }
+    },
+    "ehlers_danlos_syndrome": {
+  
+  
+    "joint_hypermobility": 0.9,
+    "skin_hyperextensibility": 0.85,
+    "tissue_fragility": 0.8,
+    "joint_dislocations": 0.75,
+    "chronic_pain": 0.6,
+    "easy_bruising": 0.5,
+    "autonomic_dysfunction": 0.4,
+    "gastrointestinal_dysfunction": 0.35
+    },
+    "hemophilia": {
+ 
+   
+    "prolonged_bleeding": 0.95,
+    "intracranial_hemorrhage": 0.9,
+    "easy_bruising": 0.85,
+    "delayed_bleeding": 0.8,
+    "poor_wound_healing": 0.65,
+    "umbilical_stump_bleeding": 0.6,
+    "miscarriage": 0.2
+  },"phenylketonuria": {
+  "developmental_delay": 0.85,
+  "intellectual_disability": 0.9,
+  "seizures": 0.7,
+  "microcephaly": 0.75,
+  "musty_odor": 0.95,
+  "fair_skin": 0.9,
+  "behavioral_problems": 0.7,
+  "failure_to_thrive": 0.6,
+  "eczema": 0.55,
+  "hyperactivity": 0.65,
+  "elevated_phenylalanine": 0.95
 }
+,
+"thalassemia": {
+  "chronic_anemia": 0.95,
+  "jaundice": 0.7,
+  "iron_overload": 0.9,
+  "bone_pain": 0.5,
+  "splenomegaly": 0.8,
+  "chipmunk_facies": 0.95,
+  "crew_cut_skull": 0.9,
+  "fatigue": 0.7,
+  "growth_delay": 0.6,
+  "failure_to_thrive": 0.5
+}
+
+
+}
+
+

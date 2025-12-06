@@ -13,6 +13,9 @@ from sklearn.preprocessing import LabelEncoder
 from src.training.dataset_builder import dataset_builder
 X_dataset,Y_dataset=dataset_builder()
 print(f"\nDataset Ready: {len(X_dataset)} samples | {len(set(Y_dataset))} diseases")
+from collections import Counter
+print("\nClass distribution:", Counter(Y_dataset))
+
 label_encoder = LabelEncoder()
 Y_dataset = label_encoder.fit_transform(Y_dataset)
 X_train,X_test,Y_train,Y_test=train_test_split(X_dataset,Y_dataset,stratify=Y_dataset,test_size=0.2,random_state=42)
