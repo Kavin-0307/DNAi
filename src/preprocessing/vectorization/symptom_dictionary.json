@@ -1,107 +1,295 @@
 {
         "fever":["pyrexia","high temperature","fever","temperature"],
-        "dyspnea":["shortness of breath","breathlessness","windedness","labored breathing"],
-        "wheezing":["whistling breath","bronchospasm","airway constriction"],
-        "sinusitis":["sinus congestion"],
-        "nasal_polyps":["nasal growths"],
-        "hemoptysis":["coughing up blood","bloody sputum"],
+        "dyspnea":["dyspnea","shortness of breath","breathlessness","windedness","labored breathing"],
+        "wheezing":["wheezing","whistling breath","bronchospasm","airway constriction"],
+        "sinusitis":["sinus congestion","sinusitis"],
+        "nasal_polyps":["nasal growths","nasal polyps"],
+        "hemoptysis":["coughing up blood","bloody sputum","hemoptysis"],
         "chronic_cough":["persistent cough","sputum production","phlegm","wet cough"],
 
-        "steatorrhea":["greasy stools","fatty stools","bulky stools","foul smelling stools","oil in stool"],
-        "failure_to_thrive":["poor weight gain","malnutrition","growth retardation"],
-        "rectal_prolapse":["protruding rectum","anal protrusion"],
-        "abdominal_distension":["bloating","stomach pain","abdominal cramping"],
-        "jaundice":["yellowing of skin","cholestasis"],
-        "digital_clubbing":["hippocratic fingers","watch-glass nail","drumstick fingers"],
-        "infertility":["azospermia"],
-        "fatigue":["lethargy","chronic exhaustion"],
-       
-        "pseudohypertrophy":["false enlargement","calf hypertrophy","fatty infiltration","muscular steatosis","enlarged calves","large calves"],
-        "gowers_sign":["tripod sign","pushes off thighs to stand","uses hands to climb body"],
-        "waddling_gait":["duck gait","trendelenburg gait"],
-        "toe_walking":["equinus gait","tip toe walking","achilles tendon contracture"],
-        "scoliosis":["curvature of the spine","spinal deformity"],
-        "lordosis":["swayback","hyperlordosis","inward spinal curvature"],
-        "kyphosis":["hunchback","forward spinal curvature"],
-        "foot_drop":["inability to lift the front of foot"],
-        "respiratory_inefficiency":["shallow breathing","weak cough","pulmonary restriction"],
-        "sleep_disordered_breathing":["nocturnal hyperventilation","sleep apnea"],
-        "global_development_delay":["late sitting","late walking","late talking"],
-        "intellectual_disability":["cognitive impairment","learning difficulty"],
-        "dysphasia":["speech delay"],
-        "hypotonia":["low muscle tone","flaccidity","rag doll appearance","decreased muscle tone"],
-        "areflexia":["loss of reflexes","absent deep tendon reflexes","hyporeflxia","absent knee-jerk"],
-        "muscle_atrophy":["muscle wasting","amyotrophy","loss of muscle mass","thinning of limbs"],
-        "fasciculations":["muscle twitching","tongue quivering","involuntary muscle flickering"],
-        "dysphagia":["swallowing difficulty","choking while eating","aspiration risk","poor suck"],
-        "paradoxical_breathing":["belly breathing","seesaw breathing","abdominal breathing"],
-        "head_lag":["poor head control","inability to hold head up","neck weakness"],
+        "steatorrhea":["greasy stools","fatty stools","bulky stools","foul smelling stools","oil in stool","steatorrhea"],
+        "failure_to_thrive":["poor weight gain","malnutrition","growth retardation","failure to thrive"],
+        "rectal_prolapse":["protruding rectum","anal protrusion","rectal prolapse"],
+        "abdominal_distension":["bloating","stomach pain","abdominal cramping","abdominal distension"],
+        "jaundice":["yellowing of skin","cholestasis","jaundice"],
+        "digital_clubbing":["hippocratic fingers","watch-glass nail","drumstick fingers","digital clubbing"],
+        "infertility":["azospermia","infertility"],
+        "fatigue":["lethargy","chronic exhaustion","fatigue"],
+       "pseudohypertrophy": [
+    "false enlargement", "calf hypertrophy", "fatty infiltration",
+        "pseudohypertrophy","muscular steatosis", "enlarged calves", "large calves"
+],
+
+"gowers_sign": [
+    "gowers sign",                             
+    "tripod sign", "pushes off thighs to stand", "uses hands to climb body"
+],
+        "waddling_gait": ["waddling gait","duck gait", "trendelenburg gait"],
+
+        "toe_walking":["equinus gait","tip toe walking","achilles tendon contracture","toe walking"],
+        "scoliosis":["curvature of the spine","spinal deformity","scoliosis"],
+        "lordosis":["swayback","hyperlordosis","inward spinal curvature","lordosis"],
+        "kyphosis":["hunchback","forward spinal curvature","kyphosis"],
+        "foot_drop":["inability to lift the front of foot","foot drop","can't lift foot", "dragging foot"],
+        "respiratory_inefficiency":["shallow breathing","weak cough","pulmonary restriction","respiratory inefficiency"],
+        "sleep_disordered_breathing":["nocturnal hyperventilation","sleep apnea","sleep disordered breathing"],
+        "global_development_delay":["late sitting","late walking","late talking","global development delay"],
+        "intellectual_disability":["cognitive impairment","learning difficulty","intellectual disability"],
+        "dysphasia":["speech delay","dysphasia"],
+        "hypotonia":["low muscle tone","hypotonia","flaccidity","rag doll appearance","decreased muscle tone"],
+        "areflexia":["loss of reflexes","absent deep tendon reflexes","areflexia","hyporefelxia","absent knee-jerk"],
+        "muscle_atrophy":["muscle wasting","amyotrophy","loss of muscle mass","muscle atrophy","thinning of limbs"],
+        "fasciculations":["muscle twitching","tongue quivering","involuntary muscle flickering","fasciculations"],
+        "dysphagia":["swallowing difficulty","choking while eating","aspiration risk","poor suck","dysphagia"],
+        "paradoxical_breathing":["belly breathing","seesaw breathing","abdominal breathing","paradoxical breathing"],
+        "head_lag":["poor head control","inability to hold head up","neck weakness","head lag"],
         "weak_cry":["feeble cry","quiet cry"],
-        "arachnodactyly":["spider fingers","long slender fingers"],
-        "dolichostenomelia":["long limbs relative to trunk","high arm span-to-height ratio"],
-        "pectus_excavatum":["sunken chest","funnel chest","concave sternum"],
-        "pectus_carinatum":["pigeon chest","protruding chest","keel chest"],
-        "ectopia_lentis":["lens dislocation","crystalline lens subluxation"],
-        "dural_ectasia":["widening of the dural sac"],
-        "aortic_root_dilation":["aortic aneurysm","aortic enlargement"],
-        "pes_planus":["flat feet","fallen arches"],
-        "high_arched_palate":["gothic palate","narrow maxillary dental arch"],
-        "crowded_teeth":["dental crowding","malocclusion"],
-        "chorea":["appendicular hyperkinesia","axial hyperkinesia","jerky involuntary movements","dance-like movements"],
-        "motor_impersistence":["impersistence of grip","tongue impersistence","inability to sustain voluntary contraction"],
-        "bradykinesia":["psychomotor retardation","slowness of movement","generalized learning"],
-        "dystonia":["sustained muscle contraction","abdominal posturing","repetitive twisting"],
-        "saccadic_dysfunction":["delayed eye movement","oculomotor slowing"],
-        "anosognosia":["lack of insight","unawareness of illness","denial of symptoms"],
-        "dysarthria":["slurred speech","hyperkinetic dysarthia","explosive speech"],
-        "cachexia":["severe weight loss","muscle loss despite eating"],
-       "exaggerated_startle_reflex": ["startle reaction", "hyper startle", "increased startle", "sudden noise reflex"],
-        "cherry_red_spot": ["cherry red macula", "macular cherry spot", "retinal cherry spot"],
-        "copper_accumulation": ["excess copper", "copper toxicity", "copper buildup", "liver copper"],
-        "tall_stature": ["unusually tall", "very tall build", "long limbs"],
-        "behavioral_problems": ["personality change", "irrational behavior", "aggression without cause"]
+        "arachnodactyly":["spider fingers","long slender fingers","arachnodactyly"],
+        "dolichostenomelia":["long limbs relative to trunk","high arm span-to-height ratio","dolichostenomelia"],
+        "pectus_excavatum":["sunken chest","funnel chest","concave sternum","pectus excavatum"],
+        "pectus_carinatum":["pigeon chest","protruding chest","keel chest","pectus carinatum"],
+        "ectopia_lentis":["lens dislocation","crystalline lens subluxation","ectopia lentis"],
+        "dural_ectasia":["widening of the dural sac","dural ectasia"],
+        "aortic_root_dilation":["aortic aneurysm","aortic enlargement","aortic root dilation"],
+        "pes_planus":["flat feet","fallen arches","pes planus"],
+        "high_arched_palate":["gothic palate","high arched palate","narrow maxillary dental arch"],
+        "crowded_teeth":["dental crowding","malocclusion","crowded teeth"],
+        "chorea":["appendicular hyperkinesia","axial hyperkinesia","chorea","jerky involuntary movements","dance-like movements"],
+       
+        "motor_impersistence":["impersistence of grip","tongue impersistence","inability to sustain voluntary contraction","motor impersistence"],
+        "bradykinesia":["psychomotor retardation","slowness of movement","generalized learning","bradykinesia"],
+        "dystonia":["sustained muscle contraction","abdominal posturing","repetitive twisting","dystonia"],
+        "saccadic_dysfunction":["delayed eye movement","oculomotor slowing","saccadic dysfunction"],
+        "anosognosia":["lack of insight","unawareness of illness","denial of symptoms","anosognosia"],
+        "dysarthria":["slurred speech","hyperkinetic dysarthria","explosive speech","dysarthria"],
+        "cachexia":["severe weight loss","muscle loss despite eating","cachexia"],
+       "exaggerated_startle_reflex": ["startle reaction", "hyper startle", "exaggerated startle reflex","increased startle", "sudden noise reflex"],
+        "cherry_red_spot": ["cherry red macula", "macular cherry spot", "retinal cherry spot","cherry red spot"],
+        "copper_accumulation": ["excess copper", "copper toxicity", "copper buildup", "liver copper","copper accumulation"],
+        "tall_stature": ["unusually tall", "very tall build", "long limbs","tall stature"],
+        "behavioral_problems": ["personality change", "irrational behavior", "behavioral problems","aggression without cause","behavior issues", "acting strange"]
 ,       
-        "neuroregression":["loss of developmental milestones","skill deterioration","pediatric dementia"],
-        "seizures":["uncontrolled convulsions","epileptic spasms","uncontrolled jerking"],
-        "blindness":["vision impairment","loss of sight"],
-        "progressive_paralysis":["flaccid paralysis","immobility","quadriplegia"],
-        "kayser_fleischer_rings":["gold brown rings in eyes","corneal copper deposition","corneal pigment deposition"],
-        "hepatic_failure":["sudden liver shutdown","acute hepatitis"] ,
-        "wing_beating_tremor":["shaking of arms","postural action tremor"],
-        "ataxia":["clumsiness","gait instability"],
-        "hemolytic_anemia":["sudden breakdown of red blood cells","coomb's negative anemia"],
-        "neuropsychiatric_changes":["mood swings","organic brain syndrome"],
-        "vaso_occlusive_crisis": ["pain crisis", "severe sickle pain", "ischemic pain"],
-        "dactylitis": ["swollen hands", "swollen feet"],
-        "splenomegaly": ["enlarged spleen"],
-        "autosplenectomy": ["nonfunctional spleen", "spleen shrinkage"],
-        "recurrent_infections": ["recurrent lung infections", "frequent infections", "keeps getting infections"],
-        "acute_chest_syndrome": ["chest pain crisis", "acute lung injury", "sickle chest event"],
-        "leg_ulcers": ["chronic leg wounds", "foot ulcers"],
-        "stroke": ["ischemic stroke", "brain vessel blockage"],
-        "priapism": ["persistent painful erection"],
-        "chronic_anemia": ["low hemoglobin","persistent anemia"],
-        "bone_pain": ["deep bone pain", "ischemic bone crisis"],
-        "iron_overload": ["excess body iron", "secondary hemochromatosis"],
-        "delayed_puberty": ["late puberty", "delayed sexual development"],
-        "hemarthrosis": ["joint bleeding", "swollen joints due to bleeding"],
-        "prolonged_bleeding": ["delayed clotting", "persistent bleeding"],
-        "easy_bruising": ["spontaneous bruising"],
-        "post_surgical_bleeding": ["bleeding after surgery", "bleeding after dental work"],
-        "gum_bleeding": ["bleeding gums"],
-        "epistaxis": ["nosebleeds"],
-        "muscle_hematomas": ["muscle bleeding", "deep bruising"],
-        "intracranial_hemorrhage": ["brain bleed"],
+        "neuroregression":["loss of developmental milestones","skill deterioration","pediatric dementia","neuroregression"],
+        "seizures":["uncontrolled convulsions","epileptic spasms","uncontrolled jerking","seizures"],
+        "blindness":["vision impairment","loss of sight","blindness","cannot see"],
+        "progressive_paralysis":["flaccid paralysis","immobility","quadriplegia","progressive paralysis"],
+        "kayser_fleischer_rings":["gold brown rings in eyes","corneal copper deposition","corneal pigment deposition","kayser fleischer rings"],
+        "hepatic_failure":["sudden liver shutdown","acute hepatitis","hepatic failure"] ,
+        "wing_beating_tremor":["shaking of arms","postural action tremor","wing beating tremor"],
+        "ataxia":["clumsiness","gait instability","ataxia"],
+        "hemolytic_anemia":["sudden breakdown of red blood cells","coomb's negative anemia","hemolytic anemia"],
+        "neuropsychiatric_changes":["mood swings","organic brain syndrome","neuropsychiatric changes"],
+        "vaso_occlusive_crisis": ["pain crisis", "severe sickle pain", "ischemic pain","vaso-occlusive crisis"],
+        "dactylitis": ["swollen hands", "swollen feet","dactylitis"],
+        "splenomegaly": ["enlarged spleen","splenomegaly"],
+        "autosplenectomy": ["nonfunctional spleen", "spleen shrinkage","autosplenectomy"],
+        "recurrent_infections": ["recurrent lung infections", "frequent infections", "recurrent infections","keeps getting infections"],
+        "acute_chest_syndrome": ["chest pain crisis", "acute lung injury", "sickle chest event","acute chest syndrome"],
+        "leg_ulcers": ["chronic leg wounds", "foot ulcers","leg ulcers"],
+        "stroke": ["ischemic stroke", "brain vessel blockage","stroke"],
+        "priapism": ["persistent painful erection","priapism"],
+        "chronic_anemia": ["low hemoglobin","persistent anemia","chronic anemia"],
+        "bone_pain": ["deep bone pain", "ischemic bone crisis","bone pain","deep bone ache"],
+        "iron_overload": ["excess body iron", "secondary hemochromatosis","iron overload"],
+
+        "delayed_puberty": ["late puberty", "delayed sexual development","delayed puberty"],
+      
+        "prolonged_bleeding": ["delayed clotting", "persistent bleeding","prolonged breathing"],
+        "easy_bruising": ["spontaneous bruising","easy bruising"],
+        "post_surgical_bleeding": ["bleeding after surgery", "post surgical bleeding","bleeding after dental work"],
+      
+      
+        "muscle_hematomas": ["muscle bleeding", "deep bruising","muscle hematomas","muscle hematomas","deep muscle bleeding","large bruises in muscles","painful muscle swelling"],
+        "intracranial_hemorrhage": ["brain bleed","intercranial hemorrhage"],
         "musty_odor": ["mousy odor"],
-        "eczema": ["itchy rash"],
-        "microcephaly": ["small head size"],
-        "behavioral_problems": ["irritability", "hyperactivity"],
-        "fair_skin": ["light skin pigmentation"],
+        "eczema": ["itchy rash","eczema"],
+        "microcephaly": ["small head size","microcephaly"],
+     
+        "fair_skin": ["light skin pigmentation","fair skin"],
          "progressive_weakness":["worsening weakness","increasing weakness","decling strength","can't lift objects","struggles to rise"],
-        "feeding_difficulty": ["poor feeding", "difficulty feeding"],
-        "developmental_delay": ["late milestones", "slower development"],
+        "feeding_difficulty": ["poor feeding", "difficulty feeding","feeding difficulty"],
+        "developmental_delay": ["late milestones", "slower development","developmental delay"],
         "chest_pain":["chest pain","tight chest","pressure chest"],
-        "vision_loss":["poor visual tracking","loss of vision"],
-        "marfanoid_habitus": ["tall slender build", "slender tall frame", "long thin body"]
+        "vision_loss":["poor visual tracking","loss of vision","vision loss"],
+        "marfanoid_habitus": ["tall slender build", "slender tall frame", "long thin body","marfanoid habitus"],
+
+        "joint hypermobility":["loose joints","double jointed","hypermobile joints","bendy joints","joint hypermobility"],
+        "skin_hyperextensibility":["stretchy skin","elastic skin","skin stretches unusually","skin hyperextensibility"],
+     
+        "chronic_pain":["persistent musculoskeletal pain","chronic arthalgia","joint pain for years","chronic muscle pain","chronic pain"],
+        "joint_dislocations":["joint instability","recurrent joint displacements","joints pop out","joint dislocations"],
+        "tissue_fragility":["tissue friability","poor wound healing","paper thin skin","fragile skin","tissue fragility"],
+        "gastrointestinal_dysfunction": ["GI motility issues", "dysmotility","digestive motility issues","gastroparesis","gastrointestinal dysfunction"],
+        "autonomic_dysfunction":["postural orthostatic tachycardia syndrome","orthostatic imbalance","POTS","dizziness while standing","autonomic dysfunction"],
+
+  "hemarthrosis": ["hemarthosis",
+    "joint bleeding",
+    "bleeding into joints",
+    "swollen painful joints","swollen joints due to bleeding"
+  ],
+  "epistaxis": ["epistaxis","nosebleeds","frequent nose bleeding"],
+  "gum_bleeding": ["gum bleeding","bleeding gums","gums bleed easily"],
+
+
+  "delayed_bleeding": ["bleeding starts hours later","post-traumatic delayed hemorrhage","delayed clotting","delayed breathing"],
+
+  "poor_wound_healing": [
+    "impaired tissue repair",
+    "defective scar formation"
+  ],
+
+  "umbilical_stump_bleeding": [
+    "newborn stump bleeding",
+    "neonatal umbilical hemorrhage"
+  ],
+
+  
+
+  "excessive_bleeding_in_pregnancy": [
+    "heavy pregnancy bleeding",
+    "recurrent fetal loss",
+    "spontaneous abortion"
+  ],
+  "blue_sclera": [
+    "blue sclera",
+    "bluish sclera",
+    "blue tinted whites of eyes"
+  ],
+  "brittle_bones": [
+    "fragile bones",
+    "bones break easily",
+    "low bone strength",
+    "fractures after minor trauma"
+  ],
+  "dentinogenesis_imperfecta": [
+    "weak teeth",
+    "discolored teeth",
+    "abnormal tooth formation",
+    "dentinogenesis imperfecta"
+  ],
+  "hearing_loss": [
+    "reduced hearing",
+    "progressive hearing loss",
+    "decreased hearing ability"
+  ],
+  "bone_bowing": [
+    "bowed legs",
+    "curved long bones",
+    "bone bowing"
+  ],
+  "multiple_fractures": [
+    "recurrent fractures",
+    "multiple broken bones",
+    "fractures at different stages of healing"
+  ]
+,
+  "hypopigmentation": [
+    "reduced pigmentation",
+    "lack of pigment",
+    "very pale skin",
+    "hypopigmented"
+  ],
+  "white_hair": [
+    "white hair",
+    "light hair",
+    "silver hair",
+    "blonde from birth"
+  ],
+  "nystagmus": [
+    "eye shaking",
+    "involuntary eye movement",
+    "wandering eyes",
+    "nystagmus"
+  ],
+  "photophobia": [
+    "light sensitivity",
+    "sensitive to sunlight",
+    "cannot tolerate bright light",
+    "photophobia"
+  ],
+  "foveal_hypoplasia": [
+    "poor retinal development",
+    "foveal underdevelopment",
+    "abnormal fovea"
+  ],
+  "visual_impairment": [
+    "poor vision",
+    "low vision",
+    "reduced visual acuity"
+  ],
+  "iris_translucency": [
+    "see-through iris",
+    "translucent iris",
+    "light passes through iris"
+  ]
+
+,
+  "ash_leaf_spots": [
+    "ash leaf spots",
+    "white patches on skin",
+    "hypomelanotic macules",
+    "hypopigmented patches"
+  ],
+
+  "facial_angiofibromas": [
+    "adenoma sebaceum",
+    "facial angiofibromas",
+    "red bumps on cheeks",
+    "papular rash on face"
+  ],
+
+  "shagreen_patch": [
+    "shagreen patch",
+    "leathery skin patch",
+    "rough plaque on lower back",
+    "textured skin lesion"
+  ],
+
+  "periungual_fibromas": [
+    "tumors near nails",
+    "periungual fibromas",
+    "growths around finger nails",
+    "bumps near toenails"
+  ],
+
+  "infantile_spasms": [
+    "sudden bending seizures",
+    "brief spasms in infants",
+    "infantile spasms",
+    "salaam attacks"
+  ],
+
+  "autism_features": [
+    "autism behaviors",
+    "social communication deficits",
+    "restricted repetitive behaviors",
+    "ASD features"
+  ],
+
+
+  "renal_angiomyolipoma": [
+    "kidney tumors",
+    "angiomyolipomas",
+    "renal fatty tumors",
+    "kidney growths"
+  ],
+
+  "subependymal_nodules": [
+    "brain calcifications",
+    "subependymal nodules",
+    "nodules in ventricles",
+    "calcified brain deposits"
+  ],
+
+  "cortical_tubers": [
+    "brain tubers",
+    "cortical dysplasia",
+    "abnormal brain lesions",
+    "cortical tubers"
+  ]
+
+
+
+
         
 }

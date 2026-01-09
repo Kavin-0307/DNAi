@@ -2,7 +2,7 @@ import joblib, json
 from src.inference.pipeline import run_pipeline
 from src.preprocessing.vectorization.vector_builder import get_vector
 
-# Load model + scaler + label mapping
+# Load model + scaler + mappings
 model = joblib.load("models/symptom_classifier.pkl")
 scaler = joblib.load("models/scalers/standard_scaler.joblib")
 
@@ -13,43 +13,69 @@ with open("models/vector_schema.json") as f:
     vector_schema = json.load(f)
 
 
+def confidence_label(p):
+    """Return doctor-friendly confidence level."""
+    if p >= 0.75: return "HIGH "
+    if p >= 0.50: return "MODERATE "
+    if p >= 0.30: return "LOW "
+    return "VERY LOW "
+
+
 def predict(text):
+    print("\n")
+    print(f"INPUT > {text}")
+    print("\n")
+
     result = run_pipeline(text)
 
-    print("\nINPUT:", text)
-
-    if "symptoms" not in result or result.get("error"):
-        print("⚠ No symptoms detected — cannot classify.\n")
+    if "symptoms" not in result or not result["symptoms"]:
+        print("No recognized symptoms → Cannot classify.\n")
         return
 
-    # --- Use the exact same vector builder as training ---
-    encoded = get_vector(result["symptoms"], vector_schema)
+    # --- Show extracted symptoms ---
+    detected = result["symptoms"]
+    print(f"Extracted symptoms ({len(detected)}):")
+    print("  → " + ", ".join(detected))
+    print()
+
+    # --- Vectorization ---
+    encoded = get_vector(detected, vector_schema)
     ordered_vector = encoded["encoded_vector"]
 
-    # Scale + predict
+    # --- Prediction ---
     X = scaler.transform([ordered_vector])
     pred_index = model.predict(X)[0]
 
-    print("Prediction:", label_map[str(pred_index)])
+    probs = model.predict_proba(X)[0]
+    top_sorted = sorted(enumerate(probs), key=lambda x: x[1], reverse=True)
 
-    if hasattr(model, "predict_proba"):
-        probs = model.predict_proba(X)[0]
-        top3 = sorted(enumerate(probs), key=lambda x: x[1], reverse=True)[:3]
+    primary_idx, primary_prob = top_sorted[0]
+    primary_label = label_map[str(primary_idx)]
 
-        print("Top 3 probabilities:")
-        for idx, p in top3:
-            print(f"  {label_map[str(idx)]}: {round(float(p),3)}")
+    # --- Output Primary Prediction ---
+    print(f"Predicted Diagnosis: {primary_label}")
+    print(f"Confidence: {round(float(primary_prob),3)} → {confidence_label(primary_prob)}\n")
 
+    # --- Differential Diagnosis (Top 5) ---
+    print("Differential Considerations:")
+    for idx, p in top_sorted[:5]:
+        print(f"  • {label_map[str(idx)]}: {round(float(p),3)}")
 
-# -------- RUN TESTS ----------
-tests = [
-    "Child with waddling gait, Gowers sign and enlarged calves",
-    "Chronic cough, nasal polyps, recurrent lung infections",
-    "Progressive memory loss, jerky movements and mood changes",
-    "Severe jaundice, Kayser Fleischer rings and tremor",
-    "Bone pain, vaso-occlusive crisis and fatigue",
-    "Tall slender build, scoliosis and lens dislocation"
+    print("\n")
+
+# --- Additional Doctor Test Cases ---
+
+doctor_tests=[
+  
+
+    # Phenylketonuria
+    "Musty odor with developmental delay and microcephaly.",
+   
+
+    # Huntington's Disease
+    
+    "Irregular involuntary movements with dysarthria and motor impersistence."
 ]
 
-for t in tests:
+for t in doctor_tests:
     predict(t)

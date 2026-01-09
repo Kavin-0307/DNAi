@@ -111,7 +111,7 @@
   {"disease":"huntingtons_disease","text":"Chorea and motor impersistence with behavioral symptoms."},
   {"disease":"huntingtons_disease","text":"Patient shows cognitive decline and dysphagia."},
   {"disease":"huntingtons_disease","text":"Gradual loss of motor control and behavioral changes."},
-  {"disease":"huntingtons_disease","text":"Progressive chorea, cognitive decline and dysphagia."},
+
 
   
   { "disease": "sickle_cell_disease", "text": "Severe bone pain crisis and chronic anemia." },
@@ -159,6 +159,105 @@
   {"disease":"tay_sachs_disease","text":"Progressive neuroregression and seizures in a child with marked hypotonia."},
   {"disease":"tay_sachs_disease","text":"Child presents with blindness, seizures, and progressive neuroregression."},
   {"disease":"tay_sachs_disease","text":"Severe hypotonia with exaggerated startle reflex and developmental regression."}
-  ,{"disease":"tay_sachs_disease","text":"Infant with seizures, hypotonia and progressive neuroregression."}
+  ,{"disease":"tay_sachs_disease","text":"Infant with seizures, hypotonia and progressive neuroregression."},
+
+  
+  {"disease":"ehlers_danlos_syndrome","text":"Young adult with hypermobile joints, stretchy skin, and chronic musculoskeletal pain."},
+{"disease":"ehlers_danlos_syndrome","text":"Patient reports frequent joint dislocations, tissue fragility, and poor wound healing."},
+{"disease":"ehlers_danlos_syndrome","text":"Teenager with bendy joints, recurrent shoulder subluxations, and easy bruising."},
+{"disease":"ehlers_danlos_syndrome","text":"Adult with joint instability, gastroparesis, and chronic widespread pain."},
+{"disease":"ehlers_danlos_syndrome","text":"Patient experiences dizziness when standing, POTS symptoms, and hypermobility."},
+{"disease":"ehlers_danlos_syndrome","text":"Child with highly elastic skin, delayed healing, and joint hypermobility."},
+{"disease":"ehlers_danlos_syndrome","text":"Adult presents with chronic joint pain, GI dysmotility, and frequent sprains."},
+{"disease":"ehlers_danlos_syndrome","text":"Person with fragile skin, recurrent dislocations, and easy bruising."},
+{"disease":"ehlers_danlos_syndrome","text":"Teen reports hypermobile joints, daily pain, and recurrent ankle instability."},
+{"disease":"ehlers_danlos_syndrome","text":"Adult experiences chronic pain, stretchy skin, and episodes of orthostatic dizziness."},
+{"disease":"ehlers_danlos_syndrome","text":"Patient reports frequent sprains, chronic pain, and hypermobile elbows and knees."},
+{"disease":"ehlers_danlos_syndrome","text":"Adult experiences digestive dysmotility, POTS symptoms, and highly flexible joints."},
+{"disease":"ehlers_danlos_syndrome","text":"Teenager shows bendy joints, soft fragile skin, and recurrent shoulder dislocations."},
+{"disease":"ehlers_danlos_syndrome","text":"Individual with joint hypermobility and chronic debilitating musculoskeletal pain."},
+{"disease":"ehlers_danlos_syndrome","text":"Patient presents with stretchy skin, poor wound healing, and recurrent subluxations."},
+{"disease":"ehlers_danlos_syndrome","text":"Adult shows orthostatic dizziness, chronic fatigue, and extreme joint flexibility."}
+,
+{"disease":"hemophilia","text":"Child presents with recurrent joint bleeds and delayed clotting after minor injuries."},
+{"disease":"hemophilia","text":"Teen shows excessive bleeding after dental extraction and frequent large bruises."},
+{"disease":"hemophilia","text":"Adult presents with deep hematomas, nosebleeds, and prolonged post-surgical bleeding."},
+{"disease":"hemophilia","text":"Child with spontaneous bruising and painful swollen knees after minor bumps."},
+{"disease":"hemophilia","text":"Individual with muscle hematomas and recurrent bleeding episodes without trauma."},
+{"disease":"hemophilia","text":"Patient shows delayed wound healing and recurrent joint hemorrhage."}
+,
+{"disease":"hemophilia","text":"Child presents with prolonged bleeding after minor injury and swollen joints."},
+{"disease":"hemophilia","text":"Infant has umbilical stump bleeding and spontaneous bruising."},
+{"disease":"hemophilia","text":"Teen experiences recurrent hemarthrosis and prolonged bleeding after dental procedures."},
+{"disease":"hemophilia","text":"Adult has persistent bleeding after surgery and deep muscle hematomas."},
+{"disease":"hemophilia","text":"Child shows spontaneous joint bleeding and excessive bruising without trauma."},
+{"disease":"hemophilia","text":"Patient has delayed bleeding and recurrent intracranial hemorrhage episodes."},
+{"disease":"hemophilia","text":"Adult with spontaneous bruising and prolonged bleeding following minor cuts."},
+{"disease":"hemophilia","text":"Child presents with recurrent painful joint swelling and excessive bleeding."},
+{"disease":"hemophilia","text":"Individual with family history of bleeding disorder shows muscle hematomas and easy bruising."},
+{"disease":"hemophilia","text":"Teen with prolonged bleeding after sports injury and recurrent joint effusions."}
+
+,{"disease": "phenylketonuria", "text": "Infant has musty odor, developmental delay and seizures."},
+{"disease": "phenylketonuria", "text": "Child with fair skin, eczema and behavioral problems."},
+{"disease": "phenylketonuria", "text": "Baby with microcephaly, musty smell and delayed milestones."},
+{"disease": "phenylketonuria", "text": "Toddler presents with seizures, intellectual disability and light-colored hair."},
+{"disease": "phenylketonuria", "text": "Musty body odor, developmental regression and irritability in a child."},
+{"disease": "phenylketonuria", "text": "Failure to meet developmental milestones with eczema and microcephaly."},
+{"disease": "phenylketonuria", "text": "Child with behavioral issues, seizures and a distinct musty smell."},
+{"disease": "phenylketonuria", "text": "Fair skin, poor growth and recurrent seizures in a patient."},
+{"disease": "phenylketonuria", "text": "Infant has irritability, hypotonia and musty body odor."}
+,
+  {"disease": "thalassemia", "text": "Child with chronic anemia, failure to thrive and splenomegaly."},
+{"disease": "thalassemia", "text": "Pediatric patient dependent on blood transfusions with jaundice."},
+{"disease": "thalassemia", "text": "Bone deformities, enlarged spleen and persistent anemia."},
+{"disease": "thalassemia", "text": "Severe fatigue, jaundice and abdominal fullness from splenomegaly."},
+{"disease": "thalassemia", "text": "Facial bone abnormalities with transfusion dependent chronic anemia."},
+{"disease": "thalassemia", "text": "Child presents with failure to thrive and iron overload from repeated transfusions."},
+{"disease": "thalassemia", "text": "Jaundice, growth delay and visible bone deformities."},
+{"disease": "thalassemia", "text": "Severe anemia requiring repeated transfusions and progressive splenomegaly."},
+{"disease": "thalassemia", "text": "Fatigue, pallor, and chronic anemia with facial bossing."},
+{"disease": "thalassemia", "text": "Iron overload with growth delays and abdominal distension due to splenomegaly."},
+  {"disease": "osteogenesis_imperfecta", "text": "Child with recurrent fractures after minor trauma and blue sclera."},
+  {"disease": "osteogenesis_imperfecta", "text": "Infant with brittle bones and multiple healed fractures at different stages."},
+  {"disease": "osteogenesis_imperfecta", "text": "Patient presents with hearing loss, bone fragility and family history of similar symptoms."},
+  {"disease": "osteogenesis_imperfecta", "text": "Toddler with delayed walking due to fractures and blue tinted sclerae."},
+  {"disease": "osteogenesis_imperfecta", "text": "Frequent long bone fractures during normal play with dentinogenesis imperfecta."},
+  {"disease": "osteogenesis_imperfecta", "text": "Mild scoliosis and multiple fractures with low bone density on imaging."},
+  {"disease": "osteogenesis_imperfecta", "text": "Teenager with ligament laxity, hearing loss and history of recurrent fractures."},
+  {"disease": "osteogenesis_imperfecta", "text": "Neonate with fractures noted at birth and triangular face appearance."},
+  {"disease": "osteogenesis_imperfecta", "text": "Child with fragile bones, short stature and bowing of long bones."},
+  {"disease": "osteogenesis_imperfecta", "text": "Adult with recurrent fractures, early hearing loss and dentinogenesis imperfecta."},
+  
+  {"disease": "oculocutaneous_albinism", "text": "Infant with pale skin, white hair and nystagmus since birth."},
+  {"disease": "oculocutaneous_albinism", "text": "Child with reduced pigmentation, photophobia and reduced visual acuity."},
+  {"disease": "oculocutaneous_albinism", "text": "Teenager with light hair, hypopigmented skin and horizontal nystagmus."},
+  {"disease": "oculocutaneous_albinism", "text": "Patient with poor depth perception and foveal hypoplasia with markedly pale skin."},
+  {"disease": "oculocutaneous_albinism", "text": "Child with iris translucency, reduced melanin and significant visual impairment."},
+  {"disease": "oculocutaneous_albinism", "text": "Newborn with white eyebrows, absence of melanin, and photophobia."},
+  {"disease": "oculocutaneous_albinism", "text": "School-aged child with decreased visual acuity, strabismus and pale hair."},
+  {"disease": "oculocutaneous_albinism", "text": "Teen with skin that burns easily, light eyelashes and congenital nystagmus."},
+  {"disease": "oculocutaneous_albinism", "text": "Patient with reduced pigmentation of hair and skin, along with foveal hypoplasia."},
+  {"disease": "oculocutaneous_albinism", "text": "Individual with photophobia, hypopigmented skin and poor visual tracking."}
+,
+  {"disease":"tuberous_sclerosis_complex", "text":"Infant with ash leaf spots visible under Wood’s lamp and recurrent infantile spasms."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Child with facial angiofibromas across the cheeks, developmental delay and seizures."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Teenager with learning difficulties, autism-like behavior and cortical tubers on MRI."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Adult with renal angiomyolipomas and shagreen patch on lower back."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Toddler with periungual fibromas and subependymal nodules detected during evaluation for seizures."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Infant with repeated spasms, hypopigmented macules on skin and global developmental delay."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Patient with epilepsy and characteristic facial angiofibromas suggestive of genetic neurocutaneous syndrome."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Individual with autism traits, cortical tubers and periungual fibromas."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Teen with multiple renal angiomyolipomas and history of seizures since infancy."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Child with ash leaf spots, subependymal nodules and abnormal brain MRI showing tubers."}
+
 
 ]
