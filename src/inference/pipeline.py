@@ -1,6 +1,4 @@
 #Normalization
-from src.preprocessing.normalization.attribute_normalizer import normalize_attributes_text
-from src.preprocessing.normalization.cue_normalizer import normalize_cues
 from src.preprocessing.normalization.concept_normalizer import normalize_concepts
 
 # Parsing

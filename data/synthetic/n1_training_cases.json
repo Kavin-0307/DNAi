@@ -111,7 +111,7 @@
   {"disease":"huntingtons_disease","text":"Chorea and motor impersistence with behavioral symptoms."},
   {"disease":"huntingtons_disease","text":"Patient shows cognitive decline and dysphagia."},
   {"disease":"huntingtons_disease","text":"Gradual loss of motor control and behavioral changes."},
-  {"disease":"huntingtons_disease","text":"Progressive chorea, cognitive decline and dysphagia."},
+
 
   
   { "disease": "sickle_cell_disease", "text": "Severe bone pain crisis and chronic anemia." },
@@ -205,8 +205,7 @@
 {"disease": "phenylketonuria", "text": "Failure to meet developmental milestones with eczema and microcephaly."},
 {"disease": "phenylketonuria", "text": "Child with behavioral issues, seizures and a distinct musty smell."},
 {"disease": "phenylketonuria", "text": "Fair skin, poor growth and recurrent seizures in a patient."},
-{"disease": "phenylketonuria", "text": "Infant has irritability, hypotonia and musty body odor."},
-{"disease": "phenylketonuria", "text": "Developmental delay with seizures and eczema present since infancy."}
+{"disease": "phenylketonuria", "text": "Infant has irritability, hypotonia and musty body odor."}
 ,
   {"disease": "thalassemia", "text": "Child with chronic anemia, failure to thrive and splenomegaly."},
 {"disease": "thalassemia", "text": "Pediatric patient dependent on blood transfusions with jaundice."},
@@ -217,7 +216,48 @@
 {"disease": "thalassemia", "text": "Jaundice, growth delay and visible bone deformities."},
 {"disease": "thalassemia", "text": "Severe anemia requiring repeated transfusions and progressive splenomegaly."},
 {"disease": "thalassemia", "text": "Fatigue, pallor, and chronic anemia with facial bossing."},
-{"disease": "thalassemia", "text": "Iron overload with growth delays and abdominal distension due to splenomegaly."}
+{"disease": "thalassemia", "text": "Iron overload with growth delays and abdominal distension due to splenomegaly."},
+  {"disease": "osteogenesis_imperfecta", "text": "Child with recurrent fractures after minor trauma and blue sclera."},
+  {"disease": "osteogenesis_imperfecta", "text": "Infant with brittle bones and multiple healed fractures at different stages."},
+  {"disease": "osteogenesis_imperfecta", "text": "Patient presents with hearing loss, bone fragility and family history of similar symptoms."},
+  {"disease": "osteogenesis_imperfecta", "text": "Toddler with delayed walking due to fractures and blue tinted sclerae."},
+  {"disease": "osteogenesis_imperfecta", "text": "Frequent long bone fractures during normal play with dentinogenesis imperfecta."},
+  {"disease": "osteogenesis_imperfecta", "text": "Mild scoliosis and multiple fractures with low bone density on imaging."},
+  {"disease": "osteogenesis_imperfecta", "text": "Teenager with ligament laxity, hearing loss and history of recurrent fractures."},
+  {"disease": "osteogenesis_imperfecta", "text": "Neonate with fractures noted at birth and triangular face appearance."},
+  {"disease": "osteogenesis_imperfecta", "text": "Child with fragile bones, short stature and bowing of long bones."},
+  {"disease": "osteogenesis_imperfecta", "text": "Adult with recurrent fractures, early hearing loss and dentinogenesis imperfecta."},
+  
+  {"disease": "oculocutaneous_albinism", "text": "Infant with pale skin, white hair and nystagmus since birth."},
+  {"disease": "oculocutaneous_albinism", "text": "Child with reduced pigmentation, photophobia and reduced visual acuity."},
+  {"disease": "oculocutaneous_albinism", "text": "Teenager with light hair, hypopigmented skin and horizontal nystagmus."},
+  {"disease": "oculocutaneous_albinism", "text": "Patient with poor depth perception and foveal hypoplasia with markedly pale skin."},
+  {"disease": "oculocutaneous_albinism", "text": "Child with iris translucency, reduced melanin and significant visual impairment."},
+  {"disease": "oculocutaneous_albinism", "text": "Newborn with white eyebrows, absence of melanin, and photophobia."},
+  {"disease": "oculocutaneous_albinism", "text": "School-aged child with decreased visual acuity, strabismus and pale hair."},
+  {"disease": "oculocutaneous_albinism", "text": "Teen with skin that burns easily, light eyelashes and congenital nystagmus."},
+  {"disease": "oculocutaneous_albinism", "text": "Patient with reduced pigmentation of hair and skin, along with foveal hypoplasia."},
+  {"disease": "oculocutaneous_albinism", "text": "Individual with photophobia, hypopigmented skin and poor visual tracking."}
+,
+  {"disease":"tuberous_sclerosis_complex", "text":"Infant with ash leaf spots visible under Wood’s lamp and recurrent infantile spasms."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Child with facial angiofibromas across the cheeks, developmental delay and seizures."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Teenager with learning difficulties, autism-like behavior and cortical tubers on MRI."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Adult with renal angiomyolipomas and shagreen patch on lower back."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Toddler with periungual fibromas and subependymal nodules detected during evaluation for seizures."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Infant with repeated spasms, hypopigmented macules on skin and global developmental delay."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Patient with epilepsy and characteristic facial angiofibromas suggestive of genetic neurocutaneous syndrome."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Individual with autism traits, cortical tubers and periungual fibromas."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Teen with multiple renal angiomyolipomas and history of seizures since infancy."},
+
+  {"disease":"tuberous_sclerosis_complex", "text":"Child with ash leaf spots, subependymal nodules and abnormal brain MRI showing tubers."}
 
 
 ]

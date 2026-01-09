@@ -97,14 +97,14 @@
         "prolonged_bleeding": ["delayed clotting", "persistent bleeding","prolonged breathing"],
         "easy_bruising": ["spontaneous bruising","easy bruising"],
         "post_surgical_bleeding": ["bleeding after surgery", "post surgical bleeding","bleeding after dental work"],
-        "gum_bleeding": ["bleeding gums"],
-        "epistaxis": ["nosebleeds","epistaxis"],
+      
+      
         "muscle_hematomas": ["muscle bleeding", "deep bruising","muscle hematomas","muscle hematomas","deep muscle bleeding","large bruises in muscles","painful muscle swelling"],
         "intracranial_hemorrhage": ["brain bleed","intercranial hemorrhage"],
         "musty_odor": ["mousy odor"],
         "eczema": ["itchy rash","eczema"],
         "microcephaly": ["small head size","microcephaly"],
-        "behavioral_problems": ["irritability", "hyperactivity","behavioral problems"],
+     
         "fair_skin": ["light skin pigmentation","fair skin"],
          "progressive_weakness":["worsening weakness","increasing weakness","decling strength","can't lift objects","struggles to rise"],
         "feeding_difficulty": ["poor feeding", "difficulty feeding","feeding difficulty"],
@@ -115,7 +115,7 @@
 
         "joint hypermobility":["loose joints","double jointed","hypermobile joints","bendy joints","joint hypermobility"],
         "skin_hyperextensibility":["stretchy skin","elastic skin","skin stretches unusually","skin hyperextensibility"],
-        "easy_bruising":["spontaneous bruising","ecchymoses","easy bruising"],
+     
         "chronic_pain":["persistent musculoskeletal pain","chronic arthalgia","joint pain for years","chronic muscle pain","chronic pain"],
         "joint_dislocations":["joint instability","recurrent joint displacements","joints pop out","joint dislocations"],
         "tissue_fragility":["tissue friability","poor wound healing","paper thin skin","fragile skin","tissue fragility"],
@@ -130,7 +130,6 @@
   "epistaxis": ["epistaxis","nosebleeds","frequent nose bleeding"],
   "gum_bleeding": ["gum bleeding","bleeding gums","gums bleed easily"],
 
-  "prolonged_bleeding": [],
 
   "delayed_bleeding": ["bleeding starts hours later","post-traumatic delayed hemorrhage","delayed clotting","delayed breathing"],
 
@@ -150,23 +149,144 @@
     "heavy pregnancy bleeding",
     "recurrent fetal loss",
     "spontaneous abortion"
+  ],
+  "blue_sclera": [
+    "blue sclera",
+    "bluish sclera",
+    "blue tinted whites of eyes"
+  ],
+  "brittle_bones": [
+    "fragile bones",
+    "bones break easily",
+    "low bone strength",
+    "fractures after minor trauma"
+  ],
+  "dentinogenesis_imperfecta": [
+    "weak teeth",
+    "discolored teeth",
+    "abnormal tooth formation",
+    "dentinogenesis imperfecta"
+  ],
+  "hearing_loss": [
+    "reduced hearing",
+    "progressive hearing loss",
+    "decreased hearing ability"
+  ],
+  "bone_bowing": [
+    "bowed legs",
+    "curved long bones",
+    "bone bowing"
+  ],
+  "multiple_fractures": [
+    "recurrent fractures",
+    "multiple broken bones",
+    "fractures at different stages of healing"
   ]
-, 
-  "musty_odor": ["mouse-like odor", "musty body smell", "phenyl odor"],
-  "developmental_delay": ["slow learning", "late milestones"],
-  "microcephaly": ["small head size", "reduced head growth"],
-  "fair_skin": ["light pigmentation", "pale skin","fair skin"],
-  "seizures": ["convulsions", "fits"],
-  "behavioral_problems": ["irritability", "self-injury", "aggression"],
-  "eczema": ["itchy skin", "dermatitis"],
-  
-  "chronic_anemia": ["low hemoglobin", "persistent anemia"],
-  "bone_deformities": ["facial bone changes", "frontal bossing"],
-  "failure_to_thrive": ["poor growth", "growth delay"],
-  "splenomegaly": ["large spleen", "swollen spleen"],
-  "iron_overload": ["hemosiderosis", "iron accumulation"],
-  "jaundice": ["yellow eyes", "yellow skin"],
-  "transfusion_dependence": ["requires regular transfusions"]
+,
+  "hypopigmentation": [
+    "reduced pigmentation",
+    "lack of pigment",
+    "very pale skin",
+    "hypopigmented"
+  ],
+  "white_hair": [
+    "white hair",
+    "light hair",
+    "silver hair",
+    "blonde from birth"
+  ],
+  "nystagmus": [
+    "eye shaking",
+    "involuntary eye movement",
+    "wandering eyes",
+    "nystagmus"
+  ],
+  "photophobia": [
+    "light sensitivity",
+    "sensitive to sunlight",
+    "cannot tolerate bright light",
+    "photophobia"
+  ],
+  "foveal_hypoplasia": [
+    "poor retinal development",
+    "foveal underdevelopment",
+    "abnormal fovea"
+  ],
+  "visual_impairment": [
+    "poor vision",
+    "low vision",
+    "reduced visual acuity"
+  ],
+  "iris_translucency": [
+    "see-through iris",
+    "translucent iris",
+    "light passes through iris"
+  ]
+
+,
+  "ash_leaf_spots": [
+    "ash leaf spots",
+    "white patches on skin",
+    "hypomelanotic macules",
+    "hypopigmented patches"
+  ],
+
+  "facial_angiofibromas": [
+    "adenoma sebaceum",
+    "facial angiofibromas",
+    "red bumps on cheeks",
+    "papular rash on face"
+  ],
+
+  "shagreen_patch": [
+    "shagreen patch",
+    "leathery skin patch",
+    "rough plaque on lower back",
+    "textured skin lesion"
+  ],
+
+  "periungual_fibromas": [
+    "tumors near nails",
+    "periungual fibromas",
+    "growths around finger nails",
+    "bumps near toenails"
+  ],
+
+  "infantile_spasms": [
+    "sudden bending seizures",
+    "brief spasms in infants",
+    "infantile spasms",
+    "salaam attacks"
+  ],
+
+  "autism_features": [
+    "autism behaviors",
+    "social communication deficits",
+    "restricted repetitive behaviors",
+    "ASD features"
+  ],
+
+
+  "renal_angiomyolipoma": [
+    "kidney tumors",
+    "angiomyolipomas",
+    "renal fatty tumors",
+    "kidney growths"
+  ],
+
+  "subependymal_nodules": [
+    "brain calcifications",
+    "subependymal nodules",
+    "nodules in ventricles",
+    "calcified brain deposits"
+  ],
+
+  "cortical_tubers": [
+    "brain tubers",
+    "cortical dysplasia",
+    "abnormal brain lesions",
+    "cortical tubers"
+  ]
 
 
 

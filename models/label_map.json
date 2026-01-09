@@ -5,10 +5,13 @@
   "3": "hemophilia",
   "4": "huntingtons_disease",
   "5": "marfans_syndrome",
-  "6": "phenylketonuria",
-  "7": "sickle_cell_disease",
-  "8": "spinal_muscular_atrophy",
-  "9": "tay_sachs_disease",
-  "10": "thalassemia",
-  "11": "wilsons_disease"
+  "6": "oculocutaneous_albinism",
+  "7": "osteogenesis_imperfecta",
+  "8": "phenylketonuria",
+  "9": "sickle_cell_disease",
+  "10": "spinal_muscular_atrophy",
+  "11": "tay_sachs_disease",
+  "12": "thalassemia",
+  "13": "tuberous_sclerosis_complex",
+  "14": "wilsons_disease"
 }
